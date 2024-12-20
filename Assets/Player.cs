@@ -3,9 +3,6 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private Rigidbody2D playerRb;
-    private Vector2 wsadInput;
-    [SerializeField] private float moveSpeed;
-    [SerializeField] private float jumpForce;
     private void Awake() {
         playerRb = GetComponent<Rigidbody2D>();
     }
@@ -16,13 +13,11 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        wsadInput.x = Input.GetAxis("Horizontal");
-        wsadInput.y = Input.GetAxis("Vertical");
-        Debug.Log(wsadInput);
-        playerRb.AddForce(wsadInput.x * Time.deltaTime * moveSpeed * Vector2.right, ForceMode2D.Force);
+        float x = Input.GetAxisRaw("Horizontal");
+        float y = Input.GetAxisRaw("Vertical");
 
-        if(wsadInput.y >= 0) {
-            playerRb.AddForce(new Vector2(0, wsadInput.y) * jumpForce, ForceMode2D.Impulse);
-        }
+        Vector2 movement = new Vector2(x,y);
+
+        playerRb.AddForce(movement * 500 * Time.deltaTime);
     }
 }
