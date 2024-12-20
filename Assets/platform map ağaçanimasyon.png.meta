@@ -1,0 +1,3234 @@
+fileFormatVersion: 2
+guid: c720b0487b0cf794388e7b86b2957921
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3927827278262180049
+    second: "platform map a\u011Fa\xE7animasyon_0"
+  - first:
+      213: -534650764761880599
+    second: "platform map a\u011Fa\xE7animasyon_1"
+  - first:
+      213: -5762574799915034278
+    second: "platform map a\u011Fa\xE7animasyon_2"
+  - first:
+      213: 8728794969914366840
+    second: "platform map a\u011Fa\xE7animasyon_3"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_0"
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d818eb5912728630800000000000000
+      internalID: 3927827278262180049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_1"
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e72a7f46f98498f0800000000000000
+      internalID: -534650764761880599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_2"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59527b30c83700b0800000000000000
+      internalID: -5762574799915034278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_3"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b56fa27c8e22970800000000000000
+      internalID: 8728794969914366840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_4"
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40187d263c873e9429d54fa9429f721b
+      internalID: 1100021089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_5"
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703cc00380943fc42a9c1a28c95922c7
+      internalID: -845524851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_6"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18882d8f2bc1b6345ba260d34d8dbf53
+      internalID: -1025991398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_7"
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e201d1f770e2443b16dc9d4fb1c221
+      internalID: 1011811649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_8"
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df66b7345e4734742b197ac3c5fd073b
+      internalID: -255589510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_9"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a598e3d911eefb4439dab0e4dfabf5ec
+      internalID: 1960004057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_10"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3001369d6894e4988a4c72e21919b1
+      internalID: -1152388842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_11"
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a141839285fb745981f1e839e57929
+      internalID: -455060541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_12"
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbb6aaaffb0f784d99753cd2ac98de5
+      internalID: 1687907784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_13"
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9de42ce2c9085438953e953c82a4fe
+      internalID: -1937805947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_14"
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77658645ca21c5b499b11a800b6e78d6
+      internalID: 1497607114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_15"
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66dd2a06a90698e43a0f93ef614fb038
+      internalID: -626667699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_16"
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111ff114539d9e24f9df876a322b6a02
+      internalID: 450977096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_17"
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c9910a8f7f5a84fa3a7eeffdf60214
+      internalID: 1451961887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_18"
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32aa7c90e96cc9545b312ccb593fd563
+      internalID: -1476314907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_19"
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeed3e7cd0e339b42bd2e4c28c6996d2
+      internalID: -2124491071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_20"
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ec2fc6f5eee7442b0068fe12d476d0
+      internalID: -1078002947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_21"
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d79c848e00df14e9d5d81604fb0650
+      internalID: -154756169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_22"
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a508106584c84574d9faf1e31deb5593
+      internalID: 129583378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_23"
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8ba0f81358c4f43abe302c36381b54
+      internalID: 1107058980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_24"
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaba5a39cc4018d40a920db81ba26d61
+      internalID: 180365051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_25"
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f627027f10dc29547800413435bce213
+      internalID: 384220874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_26"
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 99
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f3617d8b0cf804db1c988ffc943930
+      internalID: 713872044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_27"
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f92b9bdbed6967458b0d2f5135c20c5
+      internalID: 1654655578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_28"
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13075787b844bee46bb02dc860a9af1f
+      internalID: -1999146066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_29"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d603e42ec98e0641a3652ff6de35c69
+      internalID: 1965733317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_30"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13d73bab762b8e449e5ed6d352e6264
+      internalID: 1231303059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_31"
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8365cc65805ed04a89f5d6795156683
+      internalID: 1562528049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_32"
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8348e47b9c1737e4ab62b39bb4170c55
+      internalID: 1599973488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_33"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62bc87579a598e4c9e03380fa77d4e7
+      internalID: -319439240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_34"
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28763d420c8b0434db9504c76d332052
+      internalID: -1738175179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_35"
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318c0077847401448b39adf67e722050
+      internalID: 1746206440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_36"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71dbacd5383c81546a7e42c09cf6bbae
+      internalID: -1633483745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_37"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9acf036539a3014d8ce3d849cccd622
+      internalID: 200101537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_38"
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c67136f3a8e5f4ea7552ed1321a2c5
+      internalID: -2070452270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_39"
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99beedc1d0c1d3347b71e817691ed782
+      internalID: -340432507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_40"
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e95a5eea27b6e4a865b30dca4b4408
+      internalID: 1279838087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_41"
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c511a50448afa45903872a992124b1
+      internalID: -1819966675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_42"
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21bfe603637dd7419a8cc4e03b74c3b
+      internalID: -793727766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_43"
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689a519a104a6ba4d842a1acf351ec97
+      internalID: -264132599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_44"
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d821567f99d357f4a9aa96662fef2a29
+      internalID: -432335600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_45"
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95aebec3a9df26441bead73be0d2612b
+      internalID: 740303028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_46"
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ae0213cab301047aa3e732c218779c
+      internalID: -1441938800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_47"
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafef03b4cfe6c64bbc7dbc1ac18b453
+      internalID: -1471551913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_48"
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720680570ac78104f97089a4ab5117dd
+      internalID: 1514320314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_49"
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7f83f5eeae3544f8b188a0670c84e3
+      internalID: 2116822376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_50"
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611405b2c69f02343a28f70566b06638
+      internalID: 2052945331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_51"
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf6a4f2cc9a852478289fa635098db4
+      internalID: -489539888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_52"
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9ff83e63a7bcd4fa0239ddf74afcdc
+      internalID: 834043944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_53"
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ae5c30fdd4f5a4585f247c7264d48b
+      internalID: 1976763680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_54"
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bace8f9c0e00064caf4515053b6500d
+      internalID: -11765285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_55"
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a149964e4ed834d8e8c93ec4c0736d
+      internalID: 324879340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_56"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066e79f5d62d3ca4a9872840bd34572e
+      internalID: 1818573516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_57"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916fe694411dc494b9349a2c6f7bd073
+      internalID: 143915576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_58"
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea965f0cfc9739a4b9641117e18958f4
+      internalID: 616915160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_59"
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776353e0f1d2e5b42a4c3bc79b279043
+      internalID: 623282263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_60"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42b6bb819633474fa6a2e1b67744b1d
+      internalID: -1416722574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_61"
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019e8fff4ecc64a42b56985baf6d3eac
+      internalID: 1434914020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_62"
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebefc2ce8637794dbabaab9bfed3257
+      internalID: -2136885951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_63"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a9c874f443d6840961579d0fd3f18b
+      internalID: 532410734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_64"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e129ac0312538b4f83d0a32d5acd099
+      internalID: -2002889575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_65"
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144297b8b0227da45befeaace7baa258
+      internalID: 212487041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_66"
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db46a89a1255734d931d8d997ad20ed
+      internalID: 148950188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_67"
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeca12074c621b8488d9abd54ac46d77
+      internalID: -324950754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_68"
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c623e4fb90ac0c74f993536019999c9a
+      internalID: 991085447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_69"
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1eb4a16d90d4ae41a6b8263bfcdcb09
+      internalID: -532812131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_70"
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f247b2da8342df45a624da9e24302b7
+      internalID: -1003395016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_71"
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b5962b9f86fa64c9a95d8a317f4e35
+      internalID: 204762369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_72"
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1eb99fb81ce324085073e4067147fb
+      internalID: -450252340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_73"
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8158e8c5daa54342bb069ebdd9d5dec
+      internalID: -1959654312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_74"
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826cae43d36d9044ea36c304e34b5903
+      internalID: 549430701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_75"
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041bb42d66cb432489a9eaf04d3fa5af
+      internalID: 2049241386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_76"
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f265c0fd02cd4d4a9b88044db577453
+      internalID: -30327841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_77"
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118f4e4eb5c51844181bd2fb2fbad262
+      internalID: -161497871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_78"
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbeb6d107d8e1f4a96982b8576c1bc6
+      internalID: -47173593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_79"
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0c29d61f97a05419a7afb798b7dc5f
+      internalID: -504094660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_80"
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 59
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66adea4642a701549af4d63f9984f910
+      internalID: 820346934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_81"
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9836c82ebe15c9448ba5c764a212a92d
+      internalID: -911815028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_82"
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2816ce3f194fdcc4e88bf0e81995704d
+      internalID: -1445124452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_83"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82487b442d1e7354a91ffc82cbe35b61
+      internalID: -173960108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_84"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6991c4bf601b04da00e4bc3d7af8ee
+      internalID: 46008559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_85"
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5559877249e9641a8d25345bfd100f
+      internalID: 1810134152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_86"
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f77031ec6496d498cdcb85bbc65432
+      internalID: -1289816306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_87"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dcfccc7488632542a21b300748fd04d
+      internalID: 1207806884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_88"
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f5acb5cc3ebd84282a0f82ceea76e5
+      internalID: 1131912501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_89"
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca32848ff7a2f84f9ad90346c886f12
+      internalID: -743399235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_90"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67af4ea19addd342976d22d75c57a94
+      internalID: 503822387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_91"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a19acce0c43dd24bb94d6caa911a8a7
+      internalID: -551065712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_92"
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69cf75288388ae44ba806c5e1086ea8f
+      internalID: 1295424128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_93"
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70935021f0036cd488add67b19c61098
+      internalID: -1998180787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_94"
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ea7a79e74735a4d8e9afac7ee63604
+      internalID: 1436415362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_95"
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3a30e4140fa9647b0e4c5a48398942
+      internalID: -1340166796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_96"
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9d2ff3073f087428e39a3a044fbd02
+      internalID: 1679281097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_97"
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61ecced08c805c43abcd0b696a83f46
+      internalID: -163080374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_98"
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0b15d22a6ca194fac8b100db56f12d
+      internalID: -1351549553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_99"
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a784211a753bae45b0ce09f6dbcbd7f
+      internalID: -168869488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_100"
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766eb8be9492de34cb4f9488782230f1
+      internalID: 1791841017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_101"
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78def4df38a6c994ba8c0e75ffeb4dae
+      internalID: 1278853192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_102"
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2accedcdce7cad4409d8afd262b74b85
+      internalID: -1165890096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_103"
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8906bb68838704dad876a97e944550
+      internalID: -1401515248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_104"
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfa4dff9fc07ed43861db940fe5707e
+      internalID: -2145516473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_105"
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9956c23db8e09ea4db25bf531632d748
+      internalID: -1833836370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_106"
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bfbec0be4270c4ba6ca715a11c7414
+      internalID: -1952503771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_107"
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 39
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b02884292ddcf34cb87d090dae0348c
+      internalID: 1543675654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_108"
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e6ac4119109704997abeebb81afe73
+      internalID: 489459301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_109"
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50555103d102ea141bcb73b907f641ca
+      internalID: -26804471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_110"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3acbd17a293ae458e6d7d0d06a7bb6
+      internalID: -1962416450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_111"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ac7b12864e68f43b95934a7e0c6307
+      internalID: 1518314548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_112"
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e377c41ed938c94b8558b1cccdec06e
+      internalID: 511690784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_113"
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c926e337bdaff214db83dd21b333c76f
+      internalID: -343585723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_114"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be96bf3e2bfe7e7419b91ba4eaa22956
+      internalID: 32777126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_115"
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c30114d2d208004f89a40ebabaf5505
+      internalID: -142954466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_116"
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26423c6857bc684a8a93a90a7d58e69
+      internalID: -1082903690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_117"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa5ea271eb54dd419806e235c6e36af
+      internalID: -1758745267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_118"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa51476343718e4eb08f822ded02f6a
+      internalID: -406407513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_119"
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff385343fb18d524ba96fbeaa94bacfc
+      internalID: -2070624879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_120"
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421f7b3b6a5eab541bc5d6625aabff04
+      internalID: 1717690650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_121"
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babcdc6de00e92b43acc7a9e5eda926a
+      internalID: 983161555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_122"
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5da4f4936a5404aae0c681ec0c3db5
+      internalID: 1296483732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_123"
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e03c20a4fec14c47baae8bd0c6fa6c3
+      internalID: 2006982103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_124"
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3949a5475794c5b499c2a190a137c02c
+      internalID: 1838246077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_125"
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c3c5cbe6b7ddd42b8714f76972e341
+      internalID: 2078288871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_126"
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6182dd9d8b9b39d4aac8b4696fb89641
+      internalID: 1831180290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_127"
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b9b12f2e4976748b444318f8c217c6
+      internalID: -1153694117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_128"
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226aee83b179630498042d523b16eb88
+      internalID: 1198585959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_129"
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f5fbc6eebc1394ebaccc9c303987cc
+      internalID: 439440309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_130"
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5099a58d63037d469061209f3d0fe31
+      internalID: -164681510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_131"
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89561b3cc0004ac42989bb90cda3e0a1
+      internalID: 1116173282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_132"
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb78474159e3564480e89bfba55bfe5
+      internalID: 1407011176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_133"
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c33ff339f6cfdb4e9040d9bba44fb3e
+      internalID: 662109029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform map a\u011Fa\xE7animasyon_134"
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 19
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71874a4630cddb4d9195ca13a328416
+      internalID: 1411377334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2213fae11ee3a0c4db21820633371d34
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "platform map a\u011Fa\xE7animasyon_0": 3927827278262180049
+      "platform map a\u011Fa\xE7animasyon_1": -534650764761880599
+      "platform map a\u011Fa\xE7animasyon_10": -1152388842
+      "platform map a\u011Fa\xE7animasyon_100": 1791841017
+      "platform map a\u011Fa\xE7animasyon_101": 1278853192
+      "platform map a\u011Fa\xE7animasyon_102": -1165890096
+      "platform map a\u011Fa\xE7animasyon_103": -1401515248
+      "platform map a\u011Fa\xE7animasyon_104": -2145516473
+      "platform map a\u011Fa\xE7animasyon_105": -1833836370
+      "platform map a\u011Fa\xE7animasyon_106": -1952503771
+      "platform map a\u011Fa\xE7animasyon_107": 1543675654
+      "platform map a\u011Fa\xE7animasyon_108": 489459301
+      "platform map a\u011Fa\xE7animasyon_109": -26804471
+      "platform map a\u011Fa\xE7animasyon_11": -455060541
+      "platform map a\u011Fa\xE7animasyon_110": -1962416450
+      "platform map a\u011Fa\xE7animasyon_111": 1518314548
+      "platform map a\u011Fa\xE7animasyon_112": 511690784
+      "platform map a\u011Fa\xE7animasyon_113": -343585723
+      "platform map a\u011Fa\xE7animasyon_114": 32777126
+      "platform map a\u011Fa\xE7animasyon_115": -142954466
+      "platform map a\u011Fa\xE7animasyon_116": -1082903690
+      "platform map a\u011Fa\xE7animasyon_117": -1758745267
+      "platform map a\u011Fa\xE7animasyon_118": -406407513
+      "platform map a\u011Fa\xE7animasyon_119": -2070624879
+      "platform map a\u011Fa\xE7animasyon_12": 1687907784
+      "platform map a\u011Fa\xE7animasyon_120": 1717690650
+      "platform map a\u011Fa\xE7animasyon_121": 983161555
+      "platform map a\u011Fa\xE7animasyon_122": 1296483732
+      "platform map a\u011Fa\xE7animasyon_123": 2006982103
+      "platform map a\u011Fa\xE7animasyon_124": 1838246077
+      "platform map a\u011Fa\xE7animasyon_125": 2078288871
+      "platform map a\u011Fa\xE7animasyon_126": 1831180290
+      "platform map a\u011Fa\xE7animasyon_127": -1153694117
+      "platform map a\u011Fa\xE7animasyon_128": 1198585959
+      "platform map a\u011Fa\xE7animasyon_129": 439440309
+      "platform map a\u011Fa\xE7animasyon_13": -1937805947
+      "platform map a\u011Fa\xE7animasyon_130": -164681510
+      "platform map a\u011Fa\xE7animasyon_131": 1116173282
+      "platform map a\u011Fa\xE7animasyon_132": 1407011176
+      "platform map a\u011Fa\xE7animasyon_133": 662109029
+      "platform map a\u011Fa\xE7animasyon_134": 1411377334
+      "platform map a\u011Fa\xE7animasyon_14": 1497607114
+      "platform map a\u011Fa\xE7animasyon_15": -626667699
+      "platform map a\u011Fa\xE7animasyon_16": 450977096
+      "platform map a\u011Fa\xE7animasyon_17": 1451961887
+      "platform map a\u011Fa\xE7animasyon_18": -1476314907
+      "platform map a\u011Fa\xE7animasyon_19": -2124491071
+      "platform map a\u011Fa\xE7animasyon_2": -5762574799915034278
+      "platform map a\u011Fa\xE7animasyon_20": -1078002947
+      "platform map a\u011Fa\xE7animasyon_21": -154756169
+      "platform map a\u011Fa\xE7animasyon_22": 129583378
+      "platform map a\u011Fa\xE7animasyon_23": 1107058980
+      "platform map a\u011Fa\xE7animasyon_24": 180365051
+      "platform map a\u011Fa\xE7animasyon_25": 384220874
+      "platform map a\u011Fa\xE7animasyon_26": 713872044
+      "platform map a\u011Fa\xE7animasyon_27": 1654655578
+      "platform map a\u011Fa\xE7animasyon_28": -1999146066
+      "platform map a\u011Fa\xE7animasyon_29": 1965733317
+      "platform map a\u011Fa\xE7animasyon_3": 8728794969914366840
+      "platform map a\u011Fa\xE7animasyon_30": 1231303059
+      "platform map a\u011Fa\xE7animasyon_31": 1562528049
+      "platform map a\u011Fa\xE7animasyon_32": 1599973488
+      "platform map a\u011Fa\xE7animasyon_33": -319439240
+      "platform map a\u011Fa\xE7animasyon_34": -1738175179
+      "platform map a\u011Fa\xE7animasyon_35": 1746206440
+      "platform map a\u011Fa\xE7animasyon_36": -1633483745
+      "platform map a\u011Fa\xE7animasyon_37": 200101537
+      "platform map a\u011Fa\xE7animasyon_38": -2070452270
+      "platform map a\u011Fa\xE7animasyon_39": -340432507
+      "platform map a\u011Fa\xE7animasyon_4": 1100021089
+      "platform map a\u011Fa\xE7animasyon_40": 1279838087
+      "platform map a\u011Fa\xE7animasyon_41": -1819966675
+      "platform map a\u011Fa\xE7animasyon_42": -793727766
+      "platform map a\u011Fa\xE7animasyon_43": -264132599
+      "platform map a\u011Fa\xE7animasyon_44": -432335600
+      "platform map a\u011Fa\xE7animasyon_45": 740303028
+      "platform map a\u011Fa\xE7animasyon_46": -1441938800
+      "platform map a\u011Fa\xE7animasyon_47": -1471551913
+      "platform map a\u011Fa\xE7animasyon_48": 1514320314
+      "platform map a\u011Fa\xE7animasyon_49": 2116822376
+      "platform map a\u011Fa\xE7animasyon_5": -845524851
+      "platform map a\u011Fa\xE7animasyon_50": 2052945331
+      "platform map a\u011Fa\xE7animasyon_51": -489539888
+      "platform map a\u011Fa\xE7animasyon_52": 834043944
+      "platform map a\u011Fa\xE7animasyon_53": 1976763680
+      "platform map a\u011Fa\xE7animasyon_54": -11765285
+      "platform map a\u011Fa\xE7animasyon_55": 324879340
+      "platform map a\u011Fa\xE7animasyon_56": 1818573516
+      "platform map a\u011Fa\xE7animasyon_57": 143915576
+      "platform map a\u011Fa\xE7animasyon_58": 616915160
+      "platform map a\u011Fa\xE7animasyon_59": 623282263
+      "platform map a\u011Fa\xE7animasyon_6": -1025991398
+      "platform map a\u011Fa\xE7animasyon_60": -1416722574
+      "platform map a\u011Fa\xE7animasyon_61": 1434914020
+      "platform map a\u011Fa\xE7animasyon_62": -2136885951
+      "platform map a\u011Fa\xE7animasyon_63": 532410734
+      "platform map a\u011Fa\xE7animasyon_64": -2002889575
+      "platform map a\u011Fa\xE7animasyon_65": 212487041
+      "platform map a\u011Fa\xE7animasyon_66": 148950188
+      "platform map a\u011Fa\xE7animasyon_67": -324950754
+      "platform map a\u011Fa\xE7animasyon_68": 991085447
+      "platform map a\u011Fa\xE7animasyon_69": -532812131
+      "platform map a\u011Fa\xE7animasyon_7": 1011811649
+      "platform map a\u011Fa\xE7animasyon_70": -1003395016
+      "platform map a\u011Fa\xE7animasyon_71": 204762369
+      "platform map a\u011Fa\xE7animasyon_72": -450252340
+      "platform map a\u011Fa\xE7animasyon_73": -1959654312
+      "platform map a\u011Fa\xE7animasyon_74": 549430701
+      "platform map a\u011Fa\xE7animasyon_75": 2049241386
+      "platform map a\u011Fa\xE7animasyon_76": -30327841
+      "platform map a\u011Fa\xE7animasyon_77": -161497871
+      "platform map a\u011Fa\xE7animasyon_78": -47173593
+      "platform map a\u011Fa\xE7animasyon_79": -504094660
+      "platform map a\u011Fa\xE7animasyon_8": -255589510
+      "platform map a\u011Fa\xE7animasyon_80": 820346934
+      "platform map a\u011Fa\xE7animasyon_81": -911815028
+      "platform map a\u011Fa\xE7animasyon_82": -1445124452
+      "platform map a\u011Fa\xE7animasyon_83": -173960108
+      "platform map a\u011Fa\xE7animasyon_84": 46008559
+      "platform map a\u011Fa\xE7animasyon_85": 1810134152
+      "platform map a\u011Fa\xE7animasyon_86": -1289816306
+      "platform map a\u011Fa\xE7animasyon_87": 1207806884
+      "platform map a\u011Fa\xE7animasyon_88": 1131912501
+      "platform map a\u011Fa\xE7animasyon_89": -743399235
+      "platform map a\u011Fa\xE7animasyon_9": 1960004057
+      "platform map a\u011Fa\xE7animasyon_90": 503822387
+      "platform map a\u011Fa\xE7animasyon_91": -551065712
+      "platform map a\u011Fa\xE7animasyon_92": 1295424128
+      "platform map a\u011Fa\xE7animasyon_93": -1998180787
+      "platform map a\u011Fa\xE7animasyon_94": 1436415362
+      "platform map a\u011Fa\xE7animasyon_95": -1340166796
+      "platform map a\u011Fa\xE7animasyon_96": 1679281097
+      "platform map a\u011Fa\xE7animasyon_97": -163080374
+      "platform map a\u011Fa\xE7animasyon_98": -1351549553
+      "platform map a\u011Fa\xE7animasyon_99": -168869488
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
