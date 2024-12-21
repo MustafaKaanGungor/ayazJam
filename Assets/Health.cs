@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
@@ -13,10 +14,10 @@ public class Health : MonoBehaviour
 
     private float lastDamaged;
     private float current;
-    
+    public Slider healthSlider;
     public float Current
     {
-        get => current;
+        get => current; 
         private set
         {
             current = Mathf.Clamp(value, 0, Max);
@@ -37,11 +38,13 @@ public class Health : MonoBehaviour
     private void Awake()
     {
         Current = startingHp;
+        healthSlider.value = startingHp;
         lastDamaged = -invulnerabilityPeriod;
     }
 
     public void Damage(float damage)
     {
+        
         if(damage <= 0)
             return;
         
@@ -50,7 +53,7 @@ public class Health : MonoBehaviour
         
         if (IsDead)
             return;
-        
+        healthSlider.value = current - damage;
         Current -= damage;
         lastDamaged = Time.time;
         damaged?.Invoke(damage);
@@ -76,9 +79,13 @@ public class Health : MonoBehaviour
             return;
         
         Max = newMax;
-        
+        healthSlider.value = newMax;
         if(Current > Max)
+        {
             Current = Max;
+            healthSlider.value = Max;
+        }
+            
     }
 
     private void OnValidate()
