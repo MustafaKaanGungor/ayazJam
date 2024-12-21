@@ -12,7 +12,6 @@ public class Player : MonoBehaviour
     #region "Hareket"
     private Rigidbody2D playerRb;
     private Vector3 dashRotation;
-    public int healt;
     Vector3 movement;
     private List<KeyCode> pressedKeys = new List<KeyCode>();
 
@@ -37,8 +36,12 @@ public class Player : MonoBehaviour
     #region "UI"
     [SerializeField] Slider dashSlider;
     #endregion
+    #region "Health"
+    public int healt;
+    public int maxHealth;
+    public Slider slider;
+    #endregion
 
-    
     private void Awake() {
     playerRb = GetComponent<Rigidbody2D>();
     animator = GetComponent<Animator>();
@@ -46,7 +49,7 @@ public class Player : MonoBehaviour
     }
     void Start()
     {   
-        
+        slider.value = maxHealth;
     }
 
 
@@ -202,7 +205,10 @@ public class Player : MonoBehaviour
 
 		IsFacingRight = !IsFacingRight;
 	}
-    
+    public void DecreaseAttack()
+    {
+        attackPower += 1;
+    }
 
     
 }

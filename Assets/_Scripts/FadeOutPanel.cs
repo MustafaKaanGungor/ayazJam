@@ -2,11 +2,12 @@ using UnityEngine;
 
 public class FadeOutPanel : MonoBehaviour
 {
+    
     public CanvasGroup panelCanvasGroup; // Canvas Group bileþeni atanacak
     public float fadeDuration = 1.0f;   // Soluklaþma süresi
     void Start()
     {
-        Debug.Log("Burda");
+        
         if (panelCanvasGroup == null)
         {
             panelCanvasGroup = GetComponent<CanvasGroup>();
