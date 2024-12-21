@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 using System.Linq;
 using System.Collections;
 using Unity.VisualScripting;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class Player : MonoBehaviour
     float x,y;
     private KeyCode lastKeyPressed;
     [SerializeField] private float timeBetweenDashes;
+    private float dashTimer;
     [SerializeField] private float attackDuration;
     public bool isAttacked = false;
     private bool canDash = true;
@@ -24,9 +26,13 @@ public class Player : MonoBehaviour
     #endregion
 
     #region "Saldiri"
-    [SerializeField] GameObject sword;
+    [SerializeField] private float attackDashForce; 
     private Animator animator;
     
+    #endregion
+
+    #region "UI"
+    [SerializeField] Slider dashSlider;
     #endregion
 
 
@@ -42,43 +48,63 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        dashTimer += Time.deltaTime;
+        dashSlider.value = dashTimer;
+        if(dashTimer > timeBetweenDashes) {
+            canDash = true;
+        }
+
         x = 0;
         y = 0;
         LastKeyPressedByPlayer();
-        lastKeyPressed = pressedKeys.Last();
+        if(pressedKeys.Count != 0) {
+            lastKeyPressed = pressedKeys.Last();
+        } else {
+            lastKeyPressed = KeyCode.None;
+        }
         if(lastKeyPressed == KeyCode.A)
         {
             x = -1;
             y = 0;
-            transform.rotation = Quaternion.Euler(new Vector3(0,0,180));
+            if(!isAttacked) {
+                transform.rotation = Quaternion.Euler(new Vector3(0,0,180));
+            }
         }
         if(lastKeyPressed == KeyCode.D)
         {
             x = 1;
             y = 0;
-            transform.rotation = Quaternion.Euler(new Vector3(0,0,0));
+            if(!isAttacked) {
+                transform.rotation = Quaternion.Euler(new Vector3(0,0,0));
+            }
         }
         if(lastKeyPressed == KeyCode.W)
         {
             x = 0;
             y = 1;
-            transform.rotation = Quaternion.Euler(new Vector3(0,0,90));
+            if(!isAttacked) {
+                transform.rotation = Quaternion.Euler(new Vector3(0,0,90));
+            }
         }
         if(lastKeyPressed == KeyCode.S)
         {
             x = 0;
             y = -1;
-            transform.rotation = Quaternion.Euler(new Vector3(0,0,270));
+            if(!isAttacked) {
+                transform.rotation = Quaternion.Euler(new Vector3(0,0,270));
+            }
         }
-        if(lastKeyPressed == KeyCode.LeftShift && canDash)
+
+        if(Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         {
             Dash();
         }
         
 
         movement  = new Vector2(x,y);
-        if(lastKeyPressed == KeyCode.Mouse0)
+        if(Input.GetKeyDown(KeyCode.Mouse0))
         {
+
             Attack(movement);
             
         }
@@ -96,7 +122,7 @@ public class Player : MonoBehaviour
         {
             if (Input.GetKeyDown(key))
             {
-                if (!pressedKeys.Contains(key))
+                if (!pressedKeys.Contains(key) && (key == KeyCode.W || key == KeyCode.A || key == KeyCode.S || key == KeyCode.D))
                 {
                     pressedKeys.Add(key);
                 }
@@ -114,23 +140,19 @@ public class Player : MonoBehaviour
 
     void Dash()
     {
-        playerRb.linearVelocity = transform.right * Time.deltaTime * dashForce;
+        playerRb.AddForce(transform.right * dashForce, ForceMode2D.Impulse);
+        //playerRb.linearVelocity = transform.right * Time.deltaTime * dashForce;
         canDash = false;
-        StartCoroutine("WaitForDash");
+        dashTimer = 0;
     }
     void Attack(Vector2 direction)
     {
         if(!isAttacked) {
             isAttacked = true;
             animator.SetTrigger("Attack");
+            playerRb.linearVelocity = transform.right * attackDashForce;
         }
         StartCoroutine("AttackTime");
-    }
-
-    IEnumerator WaitForDash()
-    {
-        yield return new WaitForSeconds(timeBetweenDashes);
-        canDash = true;
     }
 
     IEnumerator AttackTime()
