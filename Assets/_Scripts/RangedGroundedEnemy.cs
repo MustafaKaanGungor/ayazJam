@@ -1,52 +1,46 @@
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class RangedGroundedEnemy : Enemy
 {
+    public GameObject bullet;
+    private Vector3 desiredDirection;
+    private float timer;
+    public override void FacePlayer()
 
-    private bool isPlayerİnGround;
-    [SerializeField] private Transform forwardObject;
-    void OnTriggerEnter2D(Collider2D collider)
     {
-        if(collider.CompareTag("Player"))
+        if(playerTransform.position.x < transform.position.x)
         {
-            isPlayerİnRange = true;
-        }
-    }
-
-    void OnTriggerExit2D(Collider2D collider)
-    {
-        if(collider.CompareTag("Player"))
-        {
-            isPlayerİnRange = false;
-        }
-    }
-
-    void Update()
-    {
-        if(isPlayerİnRange)
-        {
-            FacePlayer();
-            isPlayerOnGround();
-        }
-        Debug.Log(isPlayerİnGround);
-    }
-
-    void isPlayerOnGround()
-    {
-        RaycastHit2D hit = Physics2D.Raycast(forwardObject.position,transform.right);
-        if(hit.collider.name == "Player")
-        {
-            isPlayerİnGround = true;
+            transform.rotation = Quaternion.Euler(0,-180,0);
         }
         else
         {
-            isPlayerİnGround = false;
+            transform.rotation = Quaternion.Euler(0,0,0);
         }
-        
+    }
+    
+    public override void Attack(Vector3 direction)
+    {
+        Instantiate(bullet,transform.position,Quaternion.Euler(direction));
+        timer = 0;
+    }
+    IEnumerator AttackWait()
+    {
+        yield return new WaitForSeconds(60 / attackPerMinute);
+    }
+    void Update()
+    {
+        timer += Time.deltaTime;
+        desiredDirection = playerTransform.position - transform.position;
+        if(timer >= 60 / attackPerMinute )
+        {
+            Attack(desiredDirection);
+        }
+        FacePlayer();
     }
 
-    
+
 
 }
 
