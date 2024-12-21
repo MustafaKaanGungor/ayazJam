@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float timeBetweenDashes;
     [SerializeField] private float attackDuration;
     public bool isAttacked = false;
-    private bool canDash;
+    private bool canDash = true;
 
     [SerializeField] private int dashForce;
     private void Awake() {
@@ -59,7 +59,7 @@ public class Player : MonoBehaviour
             y = -1;
             transform.rotation = Quaternion.Euler(new Vector3(0,0,270));
         }
-        if(lastKeyPressed == KeyCode.LeftShift)
+        if(lastKeyPressed == KeyCode.LeftShift && canDash)
         {
             Dash();
         }
@@ -67,6 +67,11 @@ public class Player : MonoBehaviour
         {
             Attack();
             
+        }
+        if(isAttacked)
+        {
+            x = 0;
+            y = 0;
         }
 
         movement  = new Vector2(x,y);
@@ -76,7 +81,7 @@ public class Player : MonoBehaviour
     }
     void LastKeyPressedByPlayer()
     {
-         foreach (KeyCode key in System.Enum.GetValues(typeof(KeyCode)))
+        foreach (KeyCode key in System.Enum.GetValues(typeof(KeyCode)))
         {
             if (Input.GetKeyDown(key))
             {
