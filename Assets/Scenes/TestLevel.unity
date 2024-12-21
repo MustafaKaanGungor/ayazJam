@@ -285,7 +285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82ede92c7b73f0e46a287e8c3cd2c191, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBetweenDashes: 0.5
+  timeBetweenDashes: 0.8
   attackDuration: 0.36
   isAttacked: 0
   dashForce: 3118
