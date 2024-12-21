@@ -44,7 +44,6 @@ public class BeeFlyingEnemy : Enemy
         
         FacePlayer();
         Move();
-        Debug.Log(player.healt);
     }
 
     

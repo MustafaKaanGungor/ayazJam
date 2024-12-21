@@ -117,6 +117,7 @@ public class Player : MonoBehaviour
         }
 
         playerRb.AddForce(movement * 500 * Time.deltaTime);
+        Debug.Log(healt);
     }
     void LastKeyPressedByPlayer()
     {
