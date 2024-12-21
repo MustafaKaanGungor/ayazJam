@@ -8,14 +8,15 @@ public class CrockEnemy : Enemy
     private Player player;
     private Vector3 desiredDirection;
     private bool isPlayerInSide;
-    private Transform enemyForward;
+    public Transform enemyForward;
+    private float timer;
+    public GameObject bullet;
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         playerTransform = GameObject.Find("Player").transform;
         player = playerTransform.GetComponent<Player>();
-        enemyForward = GetComponentInChildren<Transform>();
     }
     public override void Move()
     {
@@ -24,7 +25,7 @@ public class CrockEnemy : Enemy
     public void CheckPlayer()
     {
     desiredDirection = playerTransform.position - transform.position;
-    RaycastHit2D hit2D = Physics2D.Raycast(-enemyForward.position,desiredDirection,50);
+    RaycastHit2D hit2D = Physics2D.Raycast(enemyForward.position,desiredDirection,50);
     if(hit2D.collider.tag == "Player")
     {
     isPlayerInSide = true;
@@ -35,12 +36,24 @@ public class CrockEnemy : Enemy
     }
     Debug.Log(hit2D.collider.name);
     }
+    public override void Attack(Vector3 direction)
+    {
+        if(isPlayerInSide)
+        {
+            Instantiate(bullet,transform.position,Quaternion.Euler(direction));
+            timer = 0;
+        }
+    }
     void Update()
     {
+        timer += Time.deltaTime;
         FacePlayer();
         Move();
         CheckPlayer();
-        Debug.Log(isPlayerInSide);
+        if(timer >= 60 / attackPerMinute)
+        {
+            Attack(Vector3.zero);
+        }
     }
 
     void OnDrawGizmos()
