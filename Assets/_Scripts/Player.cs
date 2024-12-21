@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
 {
     #region "Hareket"
     private Rigidbody2D playerRb;
-
+    
     public int healt;
     Vector3 movement;
     private List<KeyCode> pressedKeys = new List<KeyCode>();
@@ -25,6 +25,7 @@ public class Player : MonoBehaviour
     private bool canDash = true;
 
     [SerializeField] private int dashForce;
+    private bool IsFacingRight;
     #endregion
 
     #region "Saldiri"
@@ -41,6 +42,7 @@ public class Player : MonoBehaviour
     private void Awake() {
     playerRb = GetComponent<Rigidbody2D>();
     animator = GetComponent<Animator>();
+    
     }
     void Start()
     {   
@@ -61,52 +63,50 @@ public class Player : MonoBehaviour
         LastKeyPressedByPlayer();
         if(pressedKeys.Count != 0) {
             lastKeyPressed = pressedKeys.Last();
+            animator.SetBool("isWalking", true);
         } else {
             lastKeyPressed = KeyCode.None;
+            animator.SetBool("isWalking", false);
         }
         if(lastKeyPressed == KeyCode.A)
         {
             x = -1;
             y = 0;
-            if(!isAttacked) {
-                transform.rotation = Quaternion.Euler(new Vector3(0,0,180));
+            if(!isAttacked && !IsFacingRight) {
+                Turn();
             }
         }
         if(lastKeyPressed == KeyCode.D)
         {
             x = 1;
             y = 0;
-            if(!isAttacked) {
-                transform.rotation = Quaternion.Euler(new Vector3(0,0,0));
+            if(!isAttacked && IsFacingRight) {
+                Turn();
             }
         }
         if(lastKeyPressed == KeyCode.W)
         {
             x = 0;
             y = 1;
-            if(!isAttacked) {
-                transform.rotation = Quaternion.Euler(new Vector3(0,0,90));
-            }
+            
         }
         if(lastKeyPressed == KeyCode.S)
         {
             x = 0;
             y = -1;
-            if(!isAttacked) {
-                transform.rotation = Quaternion.Euler(new Vector3(0,0,270));
-            }
+            
         }
 
         if(Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         {
             Dash();
+            animator.SetTrigger("Dash");
         }
         
 
         movement  = new Vector2(x,y);
         if(Input.GetKeyDown(KeyCode.Mouse0))
         {
-
             Attack(movement);
             
         }
@@ -117,6 +117,7 @@ public class Player : MonoBehaviour
         }
 
         playerRb.AddForce(movement * 500 * Time.deltaTime);
+        Debug.Log(healt);
     }
     void LastKeyPressedByPlayer()
     {
@@ -142,6 +143,7 @@ public class Player : MonoBehaviour
 
     void Dash()
     {
+         
         playerRb.AddForce(transform.right * dashForce, ForceMode2D.Impulse);
         //playerRb.linearVelocity = transform.right * Time.deltaTime * dashForce;
         canDash = false;
@@ -173,6 +175,15 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(attackDuration);
         isAttacked = false;
     }
+
+    private void Turn()
+	{
+		Vector3 scale = transform.localScale; 
+		scale.x *= -1;
+		transform.localScale = scale;
+
+		IsFacingRight = !IsFacingRight;
+	}
     
 
     
