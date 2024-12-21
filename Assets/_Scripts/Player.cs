@@ -173,6 +173,7 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(attackDuration);
         isAttacked = false;
     }
+    
 
     
 }

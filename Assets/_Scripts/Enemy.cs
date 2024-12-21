@@ -4,24 +4,15 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public int healt;
-    public float movementSpeed;
-    public float rotationSpeed;
-    public float colliderRange;
-    public CircleCollider2D playerTrigger;
+    
+    public int damage;
 
-    public bool isPlayerİnRange;
-
-    public float rangeFromPlayer;
-
-    public float wantedRangeFromPlayer;
 
     public float attackPerMinute;
 
-    public bool isPlayerBehind;
 
     public Transform playerTransform;
 
-    public float rayDistance;
 
     
 
@@ -39,18 +30,27 @@ public class Enemy : MonoBehaviour
 
     public virtual void Attack(Vector3 direction)
     {
-
+        
     }
 
-    public virtual void FacePlayer()
+    public  void FacePlayer()
     {
         
-        
+         if(playerTransform.position.x < transform.position.x)
+        {
+            transform.rotation = Quaternion.Euler(0,-180,0);
+        }
+        else
+        {
+            transform.rotation = Quaternion.Euler(0,0,0);
+        }
     }
 
     public void TakeDamage(int damage)
     {
         healt -= damage;
     }
+
+
 
 }

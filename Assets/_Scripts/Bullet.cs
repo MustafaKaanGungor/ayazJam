@@ -27,7 +27,6 @@ public class Bullet : MonoBehaviour
         {
             player = collider.GetComponent<Player>();
             player.TakeDamage(damage);
-            Debug.Log(player.healt);
 
         }
         
