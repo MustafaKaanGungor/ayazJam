@@ -9,8 +9,9 @@ public class FeatureLevelUp : MonoBehaviour
 
     void Start()
     {
-        SetButtonImage();
-        AssignButtonListeners();
+        SetButtonImage(); // Ýlk görselleri yükle
+        SetButtonText();  // Ýlk metinleri ayarla
+        AssignButtonListeners(); // Týklama dinleyicilerini baðla
     }
 
     void SetButtonImage()
@@ -18,6 +19,22 @@ public class FeatureLevelUp : MonoBehaviour
         for (int i = 0; i < buttons.Length; i++)
         {
             buttons[i].image.sprite = abilities[i].sprites[0]; // Ýlk sprite atanýyor
+        }
+    }
+
+    void SetButtonText()
+    {
+        for (int i = 0; i < buttons.Length; i++)
+        {
+            TextMeshProUGUI buttonText = buttons[i].GetComponentInChildren<TextMeshProUGUI>();
+            if (buttonText != null)
+            {
+                buttonText.text = abilities[i].level.ToString();
+            }
+            else
+            {
+                Debug.LogWarning($"Button {i} has no TextMeshProUGUI component!");
+            }
         }
     }
 
@@ -30,38 +47,44 @@ public class FeatureLevelUp : MonoBehaviour
         }
     }
 
-    public void UpdateButtonLevel(int index)
-    {
-        if (buttons.Length > index && buttons[index] != null)
-        {
-            TextMeshProUGUI buttonText = buttons[index].GetComponentInChildren<TextMeshProUGUI>();
-            if (buttonText != null)
-            {
-                buttonText.text = abilities[index].level.ToString();
-                Debug.Log($"Button {index} level updated to {abilities[index].level}");
-            }
-            else
-            {
-                Debug.LogWarning("Button does not have a TextMeshProUGUI component!");
-            }
-        }
-        else
-        {
-            Debug.LogWarning("Button array is empty or null!");
-        }
-    }
-
     public void UpgradeAbility(int index)
     {
-        if (abilities[index].level < 3) // Seviyeyi 3'ten büyük yapmýyoruz.
+        if (abilities[index].level < 3) // Max seviye kontrolü
         {
             abilities[index].level++;
             Debug.Log($"Feature {index} level upgraded to {abilities[index].level}");
+
+            // Görseli güncelle
+            UpdateButtonImage(index);
+
+            // Metni güncelle
             UpdateButtonLevel(index);
         }
         else
         {
             Debug.Log($"Feature {index} has reached max level");
+        }
+    }
+
+    void UpdateButtonImage(int index)
+    {
+        if (abilities[index].level < abilities[index].sprites.Length)
+        {
+            buttons[index].image.sprite = abilities[index].sprites[abilities[index].level];
+            Debug.Log($"Button {index} image updated for level {abilities[index].level}");
+        }
+        else
+        {
+            Debug.LogWarning($"No sprite defined for level {abilities[index].level}");
+        }
+    }
+
+    void UpdateButtonLevel(int index)
+    {
+        TextMeshProUGUI buttonText = buttons[index].GetComponentInChildren<TextMeshProUGUI>();
+        if (buttonText != null)
+        {
+            buttonText.text = abilities[index].level.ToString();
         }
     }
 
