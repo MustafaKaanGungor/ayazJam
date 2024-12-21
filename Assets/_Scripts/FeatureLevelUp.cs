@@ -29,7 +29,7 @@ public class FeatureLevelUp : MonoBehaviour
             TextMeshProUGUI buttonText = buttons[i].GetComponentInChildren<TextMeshProUGUI>();
             if (buttonText != null)
             {
-                buttonText.text = abilities[i].level.ToString();
+                buttonText.text = (abilities[i].level).ToString();
             }
             else
             {
