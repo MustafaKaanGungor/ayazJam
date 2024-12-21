@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
@@ -6,40 +7,43 @@ using UnityEngine.UI;
 
 public class FeatureLevelUp : MonoBehaviour
 {
+    public static FeatureLevelUp instance { get; set; }
     public Feature[] abilities;
     public Button[] buttons;
     public FadeOutPanel fadeOutPanel;
+    public Player player;
     private bool isClickable = true;
-    public bool isSaved = false;
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(transform.gameObject);
+        instance = this;
+    }
     void Start()
     {
-        GetData();
+        
 
-        if (!isSaved) {
-            SetButtonImage(); // Ýlk görselleri yükle
-            SetButtonText();  // Ýlk metinleri ayarla
             
-        }
+        SetButtonImage(); // Ýlk görselleri yükle
+        SetButtonText();  // Ýlk metinleri ayarla
         AssignButtonListeners(); // Týklama dinleyicilerini baðla
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) // Fade iþlemini boþluk tuþuyla tetikle
-        {
-            SaveData();
-        }if (Input.GetKeyDown(KeyCode.E))
-        {
-            PlayerPrefs.DeleteAll();
-        }
     }
     void SetButtonImage()
     {
-        for (int i = 0; i < buttons.Length; i++)
-        {
-            buttons[i].image.sprite = abilities[i].sprites[i]; // Ýlk sprite atanýyor
+        for (int i = 0; i < abilities.Length; i++) {
+            buttons[i].image.sprite = abilities[i].sprites[0];
         }
- 
+    }
+    void SetButtonImage(int index)
+    {
+        for (int i = 0; i < abilities.Length; i++)
+        {
+            buttons[i].image.sprite = abilities[i].sprites[0];
+        }
     }
 
     void SetButtonText()
@@ -64,45 +68,23 @@ public class FeatureLevelUp : MonoBehaviour
         {
             int index = i; // Lambda'da kullanýlacak doðru index
             buttons[i].onClick.AddListener(() => UpgradeAbility(index));
+
         }
         
     }
 
     public void UpgradeAbility(int index)
     {
-        if (abilities[index].level < 3 & isClickable) // Max seviye kontrolü
-        {
-            abilities[index].level++;
-            Debug.Log($"Feature {index} level upgraded to {abilities[index].level}");
-
-            // Görseli güncelle
-            UpdateButtonImage(index);
-
-            // Metni güncelle
-            UpdateButtonLevel(index);
-            isClickable = false;
-            StartCoroutine(HidePanel());
-
-        }
-        else
-        {
-            Debug.Log($"Feature {index} has reached max level");
-            
-        }
-
+        abilities[index].level = player.attackPower;
+        UpdateButtonImage(index);
+        UpdateButtonLevel(index);
     }
 
     void UpdateButtonImage(int index)
     {
-        if (abilities[index].level < abilities[index].sprites.Length)
-        {
+        
             buttons[index].image.sprite = abilities[index].sprites[abilities[index].level];
-            Debug.Log($"Button {index} image updated for level {abilities[index].level}");
-        }
-        else
-        {
-            Debug.LogWarning($"No sprite defined for level {abilities[index].level}");
-        }
+        
     }
 
     void UpdateButtonLevel(int index)
@@ -127,7 +109,7 @@ public class FeatureLevelUp : MonoBehaviour
         }
     }
 
-    void SaveData()
+    /*void SaveData()
     {
         for (int i = 0; i < abilities.Length; i++)
         {
@@ -154,7 +136,7 @@ public class FeatureLevelUp : MonoBehaviour
                 buttonText.text = abilities[i].level.ToString();
             }
         }
-    }
+    }*/
     IEnumerator HidePanel()
     {
         yield return new WaitForSeconds(0.5f);

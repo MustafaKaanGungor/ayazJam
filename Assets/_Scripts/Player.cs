@@ -31,14 +31,14 @@ public class Player : MonoBehaviour
     #region "Saldiri"
     [SerializeField] private float attackDashForce; 
     private Animator animator;
-    
+    public int attackPower = 1;
     #endregion
 
     #region "UI"
     [SerializeField] Slider dashSlider;
     #endregion
 
-
+    
     private void Awake() {
     playerRb = GetComponent<Rigidbody2D>();
     animator = GetComponent<Animator>();
