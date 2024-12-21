@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kalkanlvl1_0: 1546273876562974138
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
