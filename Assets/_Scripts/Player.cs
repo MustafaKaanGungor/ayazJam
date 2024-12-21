@@ -26,6 +26,7 @@ public class Player : MonoBehaviour
 
     [SerializeField] private int dashForce;
     private bool IsFacingRight;
+    [SerializeField] private float moveSpeed;
     #endregion
 
     #region "Saldiri"
@@ -119,7 +120,7 @@ public class Player : MonoBehaviour
             y = 0;
         }
 
-        playerRb.AddForce(movement * 500 * Time.deltaTime);
+        playerRb.AddForce(movement * moveSpeed * Time.deltaTime);
         Debug.Log(healt);
     }
     void LastKeyPressedByPlayer()
