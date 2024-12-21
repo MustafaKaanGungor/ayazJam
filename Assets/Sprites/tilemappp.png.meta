@@ -1,0 +1,1430 @@
+fileFormatVersion: 2
+guid: c4d845ada17c8a3418f38495aa2b9515
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4961622366061855387
+    second: tilemappp_0
+  - first:
+      213: 2239445369718350530
+    second: tilemappp_1
+  - first:
+      213: 6746583717880433390
+    second: tilemappp_2
+  - first:
+      213: 2480321032608573519
+    second: tilemappp_3
+  - first:
+      213: 7454386241674427284
+    second: tilemappp_4
+  - first:
+      213: -4277608346283084335
+    second: tilemappp_5
+  - first:
+      213: -2350064359244684679
+    second: tilemappp_6
+  - first:
+      213: -1004161860951773680
+    second: tilemappp_7
+  - first:
+      213: 639145657263525474
+    second: tilemappp_8
+  - first:
+      213: 1987784202029559163
+    second: tilemappp_9
+  - first:
+      213: -3863889132959004751
+    second: tilemappp_10
+  - first:
+      213: 3279272056596502482
+    second: tilemappp_11
+  - first:
+      213: -3751679793748237702
+    second: tilemappp_12
+  - first:
+      213: 6055360049133901083
+    second: tilemappp_13
+  - first:
+      213: 5594067599022566260
+    second: tilemappp_14
+  - first:
+      213: -8521149100781898473
+    second: tilemappp_15
+  - first:
+      213: 25522072099107030
+    second: tilemappp_16
+  - first:
+      213: -3267338240130866089
+    second: tilemappp_17
+  - first:
+      213: 4009927282523561338
+    second: tilemappp_18
+  - first:
+      213: -3827995347231817555
+    second: tilemappp_19
+  - first:
+      213: 556627323916375089
+    second: tilemappp_20
+  - first:
+      213: -4572414179495612286
+    second: tilemappp_21
+  - first:
+      213: -4028676450123981170
+    second: tilemappp_22
+  - first:
+      213: -4928250957307574595
+    second: tilemappp_23
+  - first:
+      213: 6721718200249012771
+    second: tilemappp_24
+  - first:
+      213: 8570794230873081579
+    second: tilemappp_25
+  - first:
+      213: -1194124535999909748
+    second: tilemappp_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tilemappp_2
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 350
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea82bf752ea0ad50800000000000000
+      internalID: 6746583717880433390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_3
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 254
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48609d76dedb6220800000000000000
+      internalID: 2480321032608573519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_4
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 190
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b3091bacc437760800000000000000
+      internalID: 7454386241674427284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_5
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 190
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5fc8f6fd1e2a4c0800000000000000
+      internalID: -4277608346283084335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 366
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9722aeb9ae4e26fd0800000000000000
+      internalID: -2350064359244684679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 190
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e69f49b108012f0800000000000000
+      internalID: -1004161860951773680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_8
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 190
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e0de4c693bed800800000000000000
+      internalID: 639145657263525474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 350
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b78c7a2e45b06ac0800000000000000
+      internalID: -3863889132959004751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_11
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 334
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d79c47af80528d20800000000000000
+      internalID: 3279272056596502482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_12
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 334
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7220a6da1b5febc0800000000000000
+      internalID: -3751679793748237702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_13
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 334
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15d7bbc1e5f80450800000000000000
+      internalID: 6055360049133901083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_14
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 334
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b2349b7de12ad40800000000000000
+      internalID: 5594067599022566260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_15
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 318
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71571c13a0cceb980800000000000000
+      internalID: -8521149100781898473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_16
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 318
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d03669703caa5000800000000000000
+      internalID: 25522072099107030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_17
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 318
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75423f38e2518a2d0800000000000000
+      internalID: -3267338240130866089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_18
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 318
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7dd6f13e9f16a730800000000000000
+      internalID: 4009927282523561338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_19
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 318
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da04666638a30eac0800000000000000
+      internalID: -3827995347231817555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_20
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 318
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134df4a1a9989b700800000000000000
+      internalID: 556627323916375089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_21
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 318
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280743987858b80c0800000000000000
+      internalID: -4572414179495612286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_22
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 270
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ed06b0d144718c0800000000000000
+      internalID: -4028676450123981170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_25
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 302
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6482661f391f670800000000000000
+      internalID: 8570794230873081579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_26
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 302
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80b52eaf0e9d6fe0800000000000000
+      internalID: -1194124535999909748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_27
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 302
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a996ed78d2d9d247a7b76a7a8bc488e
+      internalID: 1195657679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_28
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 302
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3622b967cc49f647be29fea84de06b0
+      internalID: -1460682874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_29
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 302
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776592afd05cf094e8cd6013b78b31e8
+      internalID: 1141361979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_30
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 302
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f059171525614cd44b2886fb979204b5
+      internalID: -1024038356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_31
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 302
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6861161a8c5e24586814666d1d069d
+      internalID: 1422126590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_35
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 286
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866f9184345d8904aa3c31ba7de756ca
+      internalID: -758501066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_36
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 286
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16800ea2323768e4086fe91440ccadc9
+      internalID: 38792698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_37
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 286
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5133e7efb9cd6724da9bb0ffba45a80d
+      internalID: 1839642440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_38
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 286
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafd0f3f2671a0949be70b2b3f0dc19e
+      internalID: 309458669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_42
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 270
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb4c0e60036db94793f211e7c32e68d
+      internalID: -1194236184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_44
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 254
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c3a102afaee2b4497789b7dd2fddbb
+      internalID: 1388891481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_45
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 254
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb2930db6a23b644b73d1fc5cc86630
+      internalID: 699989155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 254
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a9ad5acfdaac44290c8206665b7dcd
+      internalID: -450687138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_47
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 254
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a714bda90fdd8214c92e42173a5638ba
+      internalID: 962541613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_48
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 254
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b98cdb73b423664baa83ef31a20cb07
+      internalID: -155712681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_50
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 254
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6661f576f422bd94ebdfa9f691bd2f75
+      internalID: 465989422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_51
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 254
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0136f6f38922e40bdbb6fad2d9ba42
+      internalID: 1487720621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_52
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 254
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed0cf89e2b674045a3d2f923fd9e051
+      internalID: -982907487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_53
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 254
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6107425c6d41f074b86bcca8c54ea61a
+      internalID: -1769168229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_54
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 238
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fa42caeafd64048bc2ff33bbd180bd
+      internalID: -489000672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_55
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 238
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992c137677dd49f4b8d00192a76ea570
+      internalID: -1502441993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_56
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 238
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0903d1cbe9f23d744b04b63204c52a3b
+      internalID: 1821647770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_57
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 238
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca402503441f78f4f82ad920d74e8ec7
+      internalID: -289098538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_58
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 238
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e5b42f86e6a9b4e9dbf4d4d8e96935
+      internalID: -43529011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_59
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 238
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3355316e08bb63f41be9cf06bd5da43a
+      internalID: 91655177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_60
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 238
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fb660e593e8914f9873151e57e1b07
+      internalID: -152153293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_61
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 238
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a726dab990ff4eb408a761235fcb6dd9
+      internalID: -1829860218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_62
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 238
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6a8d20c9cfdf64bab81c42c2c536e1
+      internalID: -1705690146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_63
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 238
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97895e37953359e49a88ea2eb5c0ada9
+      internalID: 1566154490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemappp_43
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 190
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387843e444a7c4b4384afef4747aa459
+      internalID: 95966323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d112a376a6cfe07449c25366e76fa15a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tilemappp_0: -4961622366061855387
+      tilemappp_1: 2239445369718350530
+      tilemappp_10: -3863889132959004751
+      tilemappp_11: 3279272056596502482
+      tilemappp_12: -3751679793748237702
+      tilemappp_13: 6055360049133901083
+      tilemappp_14: 5594067599022566260
+      tilemappp_15: -8521149100781898473
+      tilemappp_16: 25522072099107030
+      tilemappp_17: -3267338240130866089
+      tilemappp_18: 4009927282523561338
+      tilemappp_19: -3827995347231817555
+      tilemappp_2: 6746583717880433390
+      tilemappp_20: 556627323916375089
+      tilemappp_21: -4572414179495612286
+      tilemappp_22: -4028676450123981170
+      tilemappp_23: -4928250957307574595
+      tilemappp_24: 6721718200249012771
+      tilemappp_25: 8570794230873081579
+      tilemappp_26: -1194124535999909748
+      tilemappp_27: 1195657679
+      tilemappp_28: -1460682874
+      tilemappp_29: 1141361979
+      tilemappp_3: 2480321032608573519
+      tilemappp_30: -1024038356
+      tilemappp_31: 1422126590
+      tilemappp_32: -297038495
+      tilemappp_33: 1002918682
+      tilemappp_34: 1820362709
+      tilemappp_35: -758501066
+      tilemappp_36: 38792698
+      tilemappp_37: 1839642440
+      tilemappp_38: 309458669
+      tilemappp_39: -845743689
+      tilemappp_4: 7454386241674427284
+      tilemappp_40: -1326599151
+      tilemappp_41: 761883178
+      tilemappp_42: -1194236184
+      tilemappp_43: 95966323
+      tilemappp_44: 1388891481
+      tilemappp_45: 699989155
+      tilemappp_46: -450687138
+      tilemappp_47: 962541613
+      tilemappp_48: -155712681
+      tilemappp_49: -1034404825
+      tilemappp_5: -4277608346283084335
+      tilemappp_50: 465989422
+      tilemappp_51: 1487720621
+      tilemappp_52: -982907487
+      tilemappp_53: -1769168229
+      tilemappp_54: -489000672
+      tilemappp_55: -1502441993
+      tilemappp_56: 1821647770
+      tilemappp_57: -289098538
+      tilemappp_58: -43529011
+      tilemappp_59: 91655177
+      tilemappp_6: -2350064359244684679
+      tilemappp_60: -152153293
+      tilemappp_61: -1829860218
+      tilemappp_62: -1705690146
+      tilemappp_63: 1566154490
+      tilemappp_64: 1585548770
+      tilemappp_65: -414328180
+      tilemappp_66: -964125588
+      tilemappp_67: 1346767860
+      tilemappp_68: -647278266
+      tilemappp_69: -279116399
+      tilemappp_7: -1004161860951773680
+      tilemappp_70: 101613605
+      tilemappp_71: -1956142796
+      tilemappp_72: -1196194186
+      tilemappp_73: -1420863128
+      tilemappp_74: 1289933467
+      tilemappp_8: 639145657263525474
+      tilemappp_9: 1987784202029559163
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
