@@ -3,59 +3,54 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public float movementSpeed;
-    public float colliderRange;
-    public CircleCollider2D playerTrigger;
+    public int healt;
+    
+    public int damage;
 
-    public bool isPlayerİnRange;
-
-    public float rangeFromPlayer;
-
-    public float wantedRangeFromPlayer;
 
     public float attackPerMinute;
 
-    public bool isPlayerBehind;
 
     public Transform playerTransform;
 
-    public float rayDistance;
+
+    
 
     void Start()
     {
-        playerTrigger = GetComponent<CircleCollider2D>();
-        playerTrigger.radius = colliderRange;
+        playerTransform = GameObject.Find("Player").transform;
     }
 
 
     public virtual void Move()
     {
-
     }
 
 
 
-    public virtual void Attack()
+    public virtual void Attack(Vector3 direction)
     {
-
+        
     }
 
-    public void FacePlayer()
+    public  void FacePlayer()
     {
-        playerTransform = GameObject.Find("Player").transform;
-        if(playerTransform.transform.position.x < transform.position.x)
+        
+         if(playerTransform.position.x < transform.position.x)
         {
-            transform.rotation = Quaternion.Euler(new Vector3(0,-180,0));
+            transform.rotation = Quaternion.Euler(0,-180,0);
         }
         else
         {
-            transform.rotation = Quaternion.Euler(new Vector3(0,0,0));
+            transform.rotation = Quaternion.Euler(0,0,0);
         }
     }
 
-    void OnDrawGizmosSelected()
+    public void TakeDamage(int damage)
     {
-        Gizmos.DrawWireSphere(transform.position,colliderRange);
+        healt -= damage;
     }
+
+
 
 }
