@@ -3,7 +3,9 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    public int healt;
     public float movementSpeed;
+    public float rotationSpeed;
     public float colliderRange;
     public CircleCollider2D playerTrigger;
 
@@ -21,41 +23,34 @@ public class Enemy : MonoBehaviour
 
     public float rayDistance;
 
+    
+
     void Start()
     {
-        playerTrigger = GetComponent<CircleCollider2D>();
-        playerTrigger.radius = colliderRange;
+        playerTransform = GameObject.Find("Player").transform;
     }
 
 
     public virtual void Move()
     {
-
     }
 
 
 
-    public virtual void Attack()
+    public virtual void Attack(Vector3 direction)
     {
 
     }
 
-    public void FacePlayer()
+    public virtual void FacePlayer()
     {
-        playerTransform = GameObject.Find("Player").transform;
-        if(playerTransform.transform.position.x < transform.position.x)
-        {
-            transform.rotation = Quaternion.Euler(new Vector3(0,-180,0));
-        }
-        else
-        {
-            transform.rotation = Quaternion.Euler(new Vector3(0,0,0));
-        }
+        
+        
     }
 
-    void OnDrawGizmosSelected()
+    public void TakeDamage(int damage)
     {
-        Gizmos.DrawWireSphere(transform.position,colliderRange);
+        healt -= damage;
     }
 
 }

@@ -11,6 +11,8 @@ public class Player : MonoBehaviour
 {
     #region "Hareket"
     private Rigidbody2D playerRb;
+
+    public int healt;
     Vector3 movement;
     private List<KeyCode> pressedKeys = new List<KeyCode>();
 
@@ -153,6 +155,17 @@ public class Player : MonoBehaviour
             playerRb.linearVelocity = transform.right * attackDashForce;
         }
         StartCoroutine("AttackTime");
+    }
+
+    public void TakeDamage(int damage)
+    {
+        healt -= damage;
+    }
+
+    IEnumerator WaitForDash()
+    {
+        yield return new WaitForSeconds(timeBetweenDashes);
+        canDash = true;
     }
 
     IEnumerator AttackTime()
