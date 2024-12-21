@@ -8,6 +8,7 @@ using Unity.VisualScripting;
 
 public class Player : MonoBehaviour
 {
+    #region "Hareket"
     private Rigidbody2D playerRb;
     Vector3 movement;
     private List<KeyCode> pressedKeys = new List<KeyCode>();
@@ -17,11 +18,21 @@ public class Player : MonoBehaviour
     [SerializeField] private float timeBetweenDashes;
     [SerializeField] private float attackDuration;
     public bool isAttacked = false;
-    private bool canDash;
+    private bool canDash = true;
 
     [SerializeField] private int dashForce;
+    #endregion
+
+    #region "Saldiri"
+    [SerializeField] GameObject sword;
+    private Animator animator;
+    
+    #endregion
+
+
     private void Awake() {
     playerRb = GetComponent<Rigidbody2D>();
+    animator = GetComponent<Animator>();
     }
     void Start()
     {   
@@ -59,24 +70,29 @@ public class Player : MonoBehaviour
             y = -1;
             transform.rotation = Quaternion.Euler(new Vector3(0,0,270));
         }
-        if(lastKeyPressed == KeyCode.LeftShift)
+        if(lastKeyPressed == KeyCode.LeftShift && canDash)
         {
             Dash();
         }
-        if(lastKeyPressed == KeyCode.Mouse0)
-        {
-            Attack();
-            
-        }
+        
 
         movement  = new Vector2(x,y);
-        
+        if(lastKeyPressed == KeyCode.Mouse0)
+        {
+            Attack(movement);
+            
+        }
+        if(isAttacked)
+        {
+            x = 0;
+            y = 0;
+        }
 
         playerRb.AddForce(movement * 500 * Time.deltaTime);
     }
     void LastKeyPressedByPlayer()
     {
-         foreach (KeyCode key in System.Enum.GetValues(typeof(KeyCode)))
+        foreach (KeyCode key in System.Enum.GetValues(typeof(KeyCode)))
         {
             if (Input.GetKeyDown(key))
             {
@@ -102,11 +118,11 @@ public class Player : MonoBehaviour
         canDash = false;
         StartCoroutine("WaitForDash");
     }
-    void Attack()
+    void Attack(Vector2 direction)
     {
-        if(!isAttacked)
-        {
-        isAttacked = true;
+        if(!isAttacked) {
+            isAttacked = true;
+            animator.SetTrigger("Attack");
         }
         StartCoroutine("AttackTime");
     }
