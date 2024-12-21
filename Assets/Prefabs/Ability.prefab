@@ -48,10 +48,24 @@ MonoBehaviour:
   - name: Attack
     level: 1
     sprites:
+    - {fileID: -2128890369817507375, guid: 024b160e0238c2b45939a3604dd2a212, type: 3}
+    - {fileID: -3839567859389486446, guid: c4bbe4183f859594ea7895f467f054a6, type: 3}
+    - {fileID: -5264247146924519213, guid: 2675c6b20befa13418292134968fd579, type: 3}
+  - name: Endurance
+    level: 1
+    sprites:
     - {fileID: 4837056257606675374, guid: 445cceb1a13aaa34cb5b5d7f48d4536d, type: 3}
     - {fileID: -913520454, guid: 445cceb1a13aaa34cb5b5d7f48d4536d, type: 3}
     - {fileID: -545558452, guid: 445cceb1a13aaa34cb5b5d7f48d4536d, type: 3}
+  - name: Speed
+    level: 1
+    sprites:
+    - {fileID: 4528073290697453023, guid: e1a3bcb4f8161f04eb0647449b3214ea, type: 3}
+    - {fileID: 6734217130915598016, guid: 54463fccc02a7014e97b342caef74b36, type: 3}
+    - {fileID: -3125472249327896225, guid: 2fbd33156c6f36342b3b30c324b46182, type: 3}
   buttons:
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   fadeOutPanel: {fileID: 0}
-  isSaved: 0
+  player: {fileID: 0}

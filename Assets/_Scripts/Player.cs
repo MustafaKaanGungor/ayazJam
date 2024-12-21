@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
 {
     #region "Hareket"
     private Rigidbody2D playerRb;
-    
+    private Vector3 dashRotation;
     public int healt;
     Vector3 movement;
     private List<KeyCode> pressedKeys = new List<KeyCode>();
@@ -31,14 +31,14 @@ public class Player : MonoBehaviour
     #region "Saldiri"
     [SerializeField] private float attackDashForce; 
     private Animator animator;
-    
+    public int attackPower = 1;
     #endregion
 
     #region "UI"
     [SerializeField] Slider dashSlider;
     #endregion
 
-
+    
     private void Awake() {
     playerRb = GetComponent<Rigidbody2D>();
     animator = GetComponent<Animator>();
@@ -74,6 +74,7 @@ public class Player : MonoBehaviour
             y = 0;
             if(!isAttacked && !IsFacingRight) {
                 Turn();
+                dashRotation = -transform.right.normalized;
             }
         }
         if(lastKeyPressed == KeyCode.D)
@@ -82,19 +83,21 @@ public class Player : MonoBehaviour
             y = 0;
             if(!isAttacked && IsFacingRight) {
                 Turn();
+                dashRotation = transform.right.normalized;
             }
         }
         if(lastKeyPressed == KeyCode.W)
         {
             x = 0;
             y = 1;
+            dashRotation = transform.up.normalized;
             
         }
         if(lastKeyPressed == KeyCode.S)
         {
             x = 0;
             y = -1;
-            
+            dashRotation = -transform.up.normalized;
         }
 
         if(Input.GetKeyDown(KeyCode.LeftShift) && canDash)
@@ -144,7 +147,7 @@ public class Player : MonoBehaviour
     void Dash()
     {
          
-        playerRb.AddForce(transform.right * dashForce, ForceMode2D.Impulse);
+        playerRb.AddForce(dashRotation * dashForce, ForceMode2D.Impulse);
         //playerRb.linearVelocity = transform.right * Time.deltaTime * dashForce;
         canDash = false;
         dashTimer = 0;
@@ -153,8 +156,23 @@ public class Player : MonoBehaviour
     {
         if(!isAttacked) {
             isAttacked = true;
-            animator.SetTrigger("Attack");
-            playerRb.linearVelocity = transform.right * attackDashForce;
+            if(dashRotation == transform.right.normalized)
+            {
+            animator.SetTrigger("AttackRight");
+            }
+            if(dashRotation == -transform.right.normalized)
+            {
+                animator.SetTrigger("AttackLeft");
+            }
+            if(dashRotation == transform.up.normalized)
+            {
+                animator.SetTrigger("AttackUp");
+            }
+            if(dashRotation == -transform.up.normalized)
+            {
+                animator.SetTrigger("AttackDown");
+            }
+            playerRb.linearVelocity = dashRotation * attackDashForce;
         }
         StartCoroutine("AttackTime");
     }
