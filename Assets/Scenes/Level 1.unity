@@ -362,6 +362,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d40ca88e14e75545ab8757ab56b13c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &894677733 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5641321256744084798, guid: 9dd75436be3a63947b1b99cdfa605257, type: 3}
+  m_PrefabInstance: {fileID: 4203538570093663228}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1014190593 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6965837315954684910, guid: 9dd75436be3a63947b1b99cdfa605257, type: 3}
+  m_PrefabInstance: {fileID: 4203538570093663228}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1346699817
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,8 +478,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 429208341}
   - {fileID: 1727452120}
+  - {fileID: 429208341}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -615,6 +637,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1403712769364112942, guid: 9dd75436be3a63947b1b99cdfa605257, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1403712769364112942, guid: 9dd75436be3a63947b1b99cdfa605257, type: 3}
+      propertyPath: m_Color.b
+      value: 0.10943389
+      objectReference: {fileID: 0}
+    - target: {fileID: 1403712769364112942, guid: 9dd75436be3a63947b1b99cdfa605257, type: 3}
+      propertyPath: m_Color.g
+      value: 0.10943389
+      objectReference: {fileID: 0}
+    - target: {fileID: 1403712769364112942, guid: 9dd75436be3a63947b1b99cdfa605257, type: 3}
+      propertyPath: m_Color.r
+      value: 0.10943389
+      objectReference: {fileID: 0}
     - target: {fileID: 3474833451186380646, guid: 9dd75436be3a63947b1b99cdfa605257, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -628,6 +666,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3474833451186380646, guid: 9dd75436be3a63947b1b99cdfa605257, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5913709246709296138, guid: 9dd75436be3a63947b1b99cdfa605257, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 927.3411
+      objectReference: {fileID: 0}
+    - target: {fileID: 5913709246709296138, guid: 9dd75436be3a63947b1b99cdfa605257, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5913709246709296138, guid: 9dd75436be3a63947b1b99cdfa605257, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
@@ -736,6 +786,18 @@ PrefabInstance:
       propertyPath: 'buttons.Array.data[0]'
       value: 
       objectReference: {fileID: 28585861}
+    - target: {fileID: 2380129442936951940, guid: 71dee9bff90dfb240b3e5fe135dbdeeb, type: 3}
+      propertyPath: 'buttons.Array.data[1]'
+      value: 
+      objectReference: {fileID: 894677733}
+    - target: {fileID: 2380129442936951940, guid: 71dee9bff90dfb240b3e5fe135dbdeeb, type: 3}
+      propertyPath: 'buttons.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1014190593}
+    - target: {fileID: 2380129442936951940, guid: 71dee9bff90dfb240b3e5fe135dbdeeb, type: 3}
+      propertyPath: 'abilities.Array.data[2].sprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: -3125472249327896225, guid: 2fbd33156c6f36342b3b30c324b46182, type: 3}
     - target: {fileID: 2796928262993519470, guid: 71dee9bff90dfb240b3e5fe135dbdeeb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
