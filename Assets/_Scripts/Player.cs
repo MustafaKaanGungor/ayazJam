@@ -8,6 +8,7 @@ using Unity.VisualScripting;
 
 public class Player : MonoBehaviour
 {
+    #region "Hareket"
     private Rigidbody2D playerRb;
     Vector3 movement;
     private List<KeyCode> pressedKeys = new List<KeyCode>();
@@ -20,8 +21,18 @@ public class Player : MonoBehaviour
     private bool canDash;
 
     [SerializeField] private int dashForce;
+    #endregion
+
+    #region "Saldiri"
+    [SerializeField] GameObject sword;
+    private Animator animator;
+    
+    #endregion
+
+
     private void Awake() {
     playerRb = GetComponent<Rigidbody2D>();
+    animator = GetComponent<Animator>();
     }
     void Start()
     {   
@@ -63,14 +74,14 @@ public class Player : MonoBehaviour
         {
             Dash();
         }
-        if(lastKeyPressed == KeyCode.Mouse0)
-        {
-            Attack();
-            
-        }
+        
 
         movement  = new Vector2(x,y);
-        
+        if(lastKeyPressed == KeyCode.Mouse0)
+        {
+            Attack(movement);
+            
+        }
 
         playerRb.AddForce(movement * 500 * Time.deltaTime);
     }
@@ -102,11 +113,11 @@ public class Player : MonoBehaviour
         canDash = false;
         StartCoroutine("WaitForDash");
     }
-    void Attack()
+    void Attack(Vector2 direction)
     {
-        if(!isAttacked)
-        {
-        isAttacked = true;
+        if(!isAttacked) {
+            isAttacked = true;
+            animator.SetTrigger("Attack");
         }
         StartCoroutine("AttackTime");
     }
