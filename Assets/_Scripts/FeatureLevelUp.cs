@@ -15,6 +15,13 @@ public class FeatureLevelUp : MonoBehaviour
     private bool isClickable = true;
     public int timer;
     public int num = 0;
+    [HideInInspector]
+    public  float elapsedTime = 0;
+    [HideInInspector]
+    public bool stop = false;
+    public TextMeshProUGUI textMeshProUGUI;
+    public bool isNormal = false;
+    public int  butonindex = 0;
 
     private void Awake()
     {
@@ -23,11 +30,12 @@ public class FeatureLevelUp : MonoBehaviour
     }
     void Start()
     {
+        SetNormalLevel();
         if(fadeOutPanel == null)
         {
             fadeOutPanel = GetComponent<FadeOutPanel>();
         }
-        SetOne();
+        
         //SetButtonImage(); // Ýlk görselleri yükle
         //SetButtonText();  // Ýlk metinleri ayarla
         AssignButtonListeners(); // Týklama dinleyicilerini baðla
@@ -35,59 +43,14 @@ public class FeatureLevelUp : MonoBehaviour
 
     private void Update()
     {
-    }
-    void SetOne()
-    {
-        for (int i = 0; i < buttons.Length; i++)
-        {
-            buttons[i].image.sprite = abilities[i].sprites[1];
-            TextMeshProUGUI buttonText = buttons[i].GetComponentInChildren<TextMeshProUGUI>();
-            buttonText.text = "1";
-        }
-    }
-    void SetOne1(int index)
-    {
-        int level2 = abilities[index].level;
-        buttons[index].image.sprite = abilities[index].sprites[level2];
-        TextMeshProUGUI buttonText = buttons[index].GetComponentInChildren<TextMeshProUGUI>();
-        buttonText.text = "1";
-    }
-    void SetTwo(int index)
-    {
-        int level2 = abilities[index].level;
-            buttons[index].image.sprite = abilities[index].sprites[level2];
-            TextMeshProUGUI buttonText = buttons[index].GetComponentInChildren<TextMeshProUGUI>();
-            buttonText.text = "2";
-    }
-    void SetThree(int index)
-    {
-        int level3 = abilities[index].level;
-            buttons[index].image.sprite = abilities[index].sprites[level3];
-            TextMeshProUGUI buttonText = buttons[index].GetComponentInChildren<TextMeshProUGUI>();
-            buttonText.text = "3";
-        
-    }
-    public void UpgradeAbility(int index)
-    {
-        if (isClickable)
-        {
-            player.DecreaseAttack();
-            if(num == 0)
-            SetZero(index);
-            if(num == 2)
-                SetTwo(index);
-            if (num == 3)
-                SetThree(index);
-            //UpdateButtonImage(index);
-            //UpdateButtonLevel(index);
-            fadeOutPanel.FadeOut();
-        }
 
+        Timer();
+        //if (Input.GetKeyUp(KeyCode.Space)) 
+        //{
+        //    fadeOutPanel.FadeIn();
+        //}
     }
-    void SetZero(int index)
-    {
-        buttons[index].image.sprite = abilities[index].sprites[0];
-    }
+
 
     void UpdateButtonImage(int index)
     {
@@ -125,6 +88,44 @@ public class FeatureLevelUp : MonoBehaviour
         }
     }
 
+    void UpdateButtonLevel(int index)
+    {
+        TextMeshProUGUI buttonText = buttons[index].GetComponentInChildren<TextMeshProUGUI>();
+        if (buttonText != null)
+        {
+            buttonText.text = abilities[index].level.ToString();
+        }
+    }
+    //
+
+
+    void SetZero(int index)
+    {
+        buttons[index].image.sprite = abilities[index].sprites[0];
+    }
+    public void UpgradeAbility(int index)
+    {
+
+        if (isClickable & abilities[index].level < 3)
+        {
+            butonindex = index;
+
+            Time.timeScale = 1;
+            stop = false;
+            //
+            SetZero(index);
+            player.SetAbilityZero(index);
+            abilities[index].level += 1;
+            //
+            fadeOutPanel.FadeOut();
+            //
+            
+        }
+        else
+            textMeshProUGUI.text = ("MAX!!");
+
+
+    }
     void AssignButtonListeners()
     {
         for (int i = 0; i < buttons.Length; i++)
@@ -133,19 +134,48 @@ public class FeatureLevelUp : MonoBehaviour
             buttons[i].onClick.AddListener(() => UpgradeAbility(index));
 
         }
-        
+
     }
 
-
-
-
-
-    void UpdateButtonLevel(int index)
+    //fade outdan sonra çalýþacak
+    void SetPlayerValues()
     {
-        TextMeshProUGUI buttonText = buttons[index].GetComponentInChildren<TextMeshProUGUI>();
-        if (buttonText != null)
+        for (int i = 0; i<abilities.Length;i++)
         {
-            buttonText.text = abilities[index].level.ToString();
+            if(i == 0)
+            player.attackP = abilities[i].level;
+            if(i == 1)
+            player.speedP = abilities[i].level;
+            if (i == 2)
+            player.healthP = abilities[i].level;
+        }
+    }
+    //her fadeinden sonra çalýþacak
+    void SetNormalLevel()
+    {
+        
+        for (int i = 0;i < buttons.Length;i++)
+        {
+           
+                TextMeshProUGUI buttonText = buttons[i].GetComponentInChildren<TextMeshProUGUI>();
+                buttonText.text = (abilities[i].level).ToString();
+                buttons[i].image.sprite = abilities[i].sprites[abilities[i].level];
+        }
+    }
+    public void Timer()
+    {
+        if (!stop)
+        {
+            elapsedTime += Time.deltaTime;
+            if (elapsedTime >= timer)
+            {
+
+                SetNormalLevel();
+                fadeOutPanel.FadeIn();
+                player.SetAbilityNormal(butonindex, abilities[butonindex].level);
+                elapsedTime = 0f;
+                stop = true;
+            }
         }
     }
 
@@ -166,18 +196,9 @@ public class FeatureLevelUp : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         fadeOutPanel.FadeOut();
+        SetPlayerValues();
+        Time.timeScale = 1f;
         yield return new WaitForSeconds(2f);
         isClickable = true;
     }
-    public void Timer()
-    {
-        float elapsedTime = 0;
-        elapsedTime += Time.deltaTime; 
-        if (elapsedTime > timer)
-        {
-            Time.timeScale = 0f;
-            //
-        }
-    }
-    
 }

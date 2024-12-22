@@ -50,6 +50,9 @@ TagManager:
   - name: Ground
     uniqueID: 3626888653
     locked: 0
+  - name: Wall
+    uniqueID: 4222643143
+    locked: 0
   - name: Foreground
     uniqueID: 2019289647
     locked: 0

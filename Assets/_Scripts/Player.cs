@@ -55,6 +55,11 @@ public class Player : MonoBehaviour
     public Slider slider;
     #endregion
 
+    #region "Player deger"
+    public int attackP = 1;
+    public int speedP = 1;
+    public int healthP = 1;
+    #endregion
     private void Awake() {
     playerRb = GetComponent<Rigidbody2D>();
     animator = GetComponent<Animator>();
@@ -62,7 +67,7 @@ public class Player : MonoBehaviour
     }
     void Start()
     {   
-        slider.value = maxHealth;
+        slider.value = healthP;
     }
 
 
@@ -135,7 +140,7 @@ public class Player : MonoBehaviour
             y = 0;
         }
 
-        playerRb.AddForce(movement * moveSpeed * Time.deltaTime);
+        playerRb.AddForce(movement * speedP * Time.deltaTime);
         Vector3 mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
         swordDirection = mousePos - transform.position;
     }
@@ -185,7 +190,7 @@ public class Player : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        healt -= damage;
+        healthP -= damage;
         animator.SetTrigger("GotDamaged");
     }
 
@@ -209,10 +214,59 @@ public class Player : MonoBehaviour
 
 		IsFacingRight = !IsFacingRight;
 	}
-    public void DecreaseAttack()
+
+    public void SetAbilityZero(int index)
     {
-        attackPower += 1;
+        if (index == 0) 
+        attackP = 5;
+        if (index == 1)
+        speedP = 0;
+        if (index == 2)
+        {
+            healthP = 5;
+            slider.value = healthP;
+        }
+    }
+    //fadeoutdan sonra çıksın
+    public void SetAbilityNormal(int index , int seviye)
+    {
+        if(index == 0)
+        {
+            if (seviye == 1)
+                attackP = 20;
+            if (seviye == 2)
+                attackP = 25;
+            if (seviye == 3)
+                attackP = 50;
+        }
+        if (index == 1) 
+        {
+            if (seviye == 1)
+                speedP = 1000;
+            if (seviye == 2)
+                speedP = 1300;
+            if (seviye == 3)
+                speedP = 1500;
+        }
+        if(index == 2)
+        {
+            if (seviye == 1)
+                healthP = 100;
+            if (seviye == 2)
+                healthP = 150;
+            if (seviye == 3)
+                healthP = 200;
+            slider.value = healthP;
+        }
+    }
+    public void SetSpeedP()
+    {
+        speedP = 0;
     }
 
-    
+    public void SetHealt()
+    {
+        healthP = 5;
+        slider.value = healthP;
+    }
 }

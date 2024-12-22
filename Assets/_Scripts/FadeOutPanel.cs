@@ -21,6 +21,10 @@ public class FadeOutPanel : MonoBehaviour
         
         StartCoroutine(FadeOutCoroutine());
     }
+    public void FadeIn()
+    {
+        StartCoroutine(FadeInCoroutine());
+    }
 
     private System.Collections.IEnumerator FadeOutCoroutine()
     {
@@ -55,6 +59,7 @@ public class FadeOutPanel : MonoBehaviour
         panelCanvasGroup.alpha = 1;
         panelCanvasGroup.interactable = true;
         panelCanvasGroup.blocksRaycasts = true;
+        Time.timeScale = 0;
     }
     public void OpenPanel()
     {

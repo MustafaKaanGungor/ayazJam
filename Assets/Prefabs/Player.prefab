@@ -78,8 +78,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 2078545077
+  m_SortingLayer: 6
   m_SortingOrder: 1
   m_Sprite: {fileID: 2532993898128050859, guid: e2588b947a21dbc4396c5adf1f7af224, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -125,6 +125,9 @@ MonoBehaviour:
   healt: 80
   maxHealth: 0
   slider: {fileID: 0}
+  attackP: 1
+  speedP: 1
+  healthP: 1
 --- !u!61 &867163595025576497
 BoxCollider2D:
   m_ObjectHideFlags: 0

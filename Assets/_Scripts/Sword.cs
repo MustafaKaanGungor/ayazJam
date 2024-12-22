@@ -34,7 +34,7 @@ public class Sword : MonoBehaviour
     {
         Rigidbody2D rb2 = collider.transform.GetComponent<Rigidbody2D>();
         enemy = collider.GetComponent<Enemy>();
-        enemy.TakeDamage(swordDamage);
+        enemy.TakeDamage(player.attackP);
         Debug.Log("1");
         rb2.AddForce(transform.up.normalized * pushForce,ForceMode2D.Impulse);
         player.GetComponent<CinemachineImpulseSource>().GenerateImpulse();
