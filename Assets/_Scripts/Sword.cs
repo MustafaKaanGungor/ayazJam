@@ -36,7 +36,7 @@ public class Sword : MonoBehaviour
         enemy.TakeDamage(swordDamage);
         Debug.Log("1");
         rb2.AddForce(transform.up.normalized * pushForce,ForceMode2D.Impulse);
-        impulse.GenerateImpulse();
+        player.GetComponent<CinemachineImpulseSource>().GenerateImpulse();
         
     }
     if(collider.CompareTag("Bullet"))

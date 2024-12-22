@@ -10,6 +10,8 @@ public class HerbEnemy : Enemy
     {
         playerTransform = GameObject.Find("Player").transform;
         player = playerTransform.GetComponent<Player>();
+        
+        animator = GetComponent<Animator>();
     }
     void Update()
     {
@@ -44,6 +46,8 @@ public class HerbEnemy : Enemy
     {
         player.TakeDamage(damage);
         timer = 0;
+        animator.SetTrigger("Attack");
+
     }
 
 }

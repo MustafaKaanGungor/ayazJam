@@ -14,11 +14,13 @@ public class Enemy : MonoBehaviour
     public Transform playerTransform;
 
 
+    public Animator animator;
     
 
     void Start()
     {
         playerTransform = GameObject.Find("Player").transform;
+        
     }
 
 

@@ -1,25 +1,28 @@
 fileFormatVersion: 2
-guid: 5286f5972bb3a9543a018c69f1dcd021
+guid: 7a961dc52d3c0d840bf7fc6cb61fa326
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9081952269672232837
-    second: "a\u011Fa\xE7animasyon_0"
+      213: 4195261541031057115
+    second: ariattack_0
   - first:
-      213: 2230199183161302888
-    second: "a\u011Fa\xE7animasyon_1"
+      213: -8413108375845670064
+    second: ariattack_1
   - first:
-      213: 2800110961081700079
-    second: "a\u011Fa\xE7animasyon_2"
+      213: -407034191315098087
+    second: ariattack_2
   - first:
-      213: -820755189219850471
-    second: "a\u011Fa\xE7animasyon_3"
+      213: -5701900275326522289
+    second: ariattack_3
   - first:
-      213: -7192507263309269959
-    second: "a\u011Fa\xE7animasyon_4"
+      213: 1590375817196631029
+    second: ariattack_4
   - first:
-      213: 6410364204432315230
-    second: "a\u011Fa\xE7animasyon_5"
+      213: 603225601836761571
+    second: ariattack_5
+  - first:
+      213: -427117811752504372
+    second: ariattack_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,7 +119,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,13 +131,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "a\u011Fa\xE7animasyon_0"
+      name: ariattack_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 2
-        width: 33
-        height: 40
+        x: 0
+        y: 0
+        width: 48
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +146,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b78422b678c66f180800000000000000
-      internalID: -9081952269672232837
+      spriteID: bd69305e420983a30800000000000000
+      internalID: 4195261541031057115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "a\u011Fa\xE7animasyon_1"
+      name: ariattack_1
       rect:
         serializedVersion: 2
-        x: 56
-        y: 2
-        width: 33
-        height: 40
+        x: 48
+        y: 0
+        width: 48
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 86f12ba475243fe10800000000000000
-      internalID: 2230199183161302888
+      spriteID: 053fad8b182ae3b80800000000000000
+      internalID: -8413108375845670064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "a\u011Fa\xE7animasyon_2"
+      name: ariattack_2
       rect:
         serializedVersion: 2
-        x: 104
-        y: 2
-        width: 33
-        height: 40
+        x: 96
+        y: 0
+        width: 48
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +190,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: feec3fe551efbd620800000000000000
-      internalID: 2800110961081700079
+      spriteID: 916a93f3f8ce95af0800000000000000
+      internalID: -407034191315098087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "a\u011Fa\xE7animasyon_3"
+      name: ariattack_3
       rect:
         serializedVersion: 2
-        x: 152
-        y: 2
-        width: 33
-        height: 40
+        x: 144
+        y: 0
+        width: 48
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,20 +212,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9170ef201871c94f0800000000000000
-      internalID: -820755189219850471
+      spriteID: f4ce578d8e7ced0b0800000000000000
+      internalID: -5701900275326522289
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "a\u011Fa\xE7animasyon_4"
+      name: ariattack_4
       rect:
         serializedVersion: 2
-        x: 200
-        y: 2
-        width: 33
-        height: 40
+        x: 192
+        y: 0
+        width: 48
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,20 +234,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 934b80660c41f2c90800000000000000
-      internalID: -7192507263309269959
+      spriteID: 5f3706b2166221610800000000000000
+      internalID: 1590375817196631029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "a\u011Fa\xE7animasyon_5"
+      name: ariattack_5
       rect:
         serializedVersion: 2
-        x: 248
-        y: 2
-        width: 33
-        height: 40
+        x: 240
+        y: 0
+        width: 48
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,8 +256,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e535116c74036f850800000000000000
-      internalID: 6410364204432315230
+      spriteID: 3e1c6e42d761f5800800000000000000
+      internalID: 603225601836761571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ariattack_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc3ff39fc92921af0800000000000000
+      internalID: -427117811752504372
       vertices: []
       indices: 
       edges: []
@@ -263,7 +288,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: eb227506278a193468e46137a65095d8
+    spriteID: 9b6d7bd264cca0e40a2aa58642ac9394
     internalID: 0
     vertices: []
     indices: 
@@ -273,12 +298,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "a\u011Fa\xE7animasyon_0": -9081952269672232837
-      "a\u011Fa\xE7animasyon_1": 2230199183161302888
-      "a\u011Fa\xE7animasyon_2": 2800110961081700079
-      "a\u011Fa\xE7animasyon_3": -820755189219850471
-      "a\u011Fa\xE7animasyon_4": -7192507263309269959
-      "a\u011Fa\xE7animasyon_5": 6410364204432315230
+      ariattack_0: 4195261541031057115
+      ariattack_1: -8413108375845670064
+      ariattack_2: -407034191315098087
+      ariattack_3: -5701900275326522289
+      ariattack_4: 1590375817196631029
+      ariattack_5: 603225601836761571
+      ariattack_6: -427117811752504372
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
