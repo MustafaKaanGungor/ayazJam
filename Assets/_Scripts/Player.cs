@@ -2,10 +2,12 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using System.Linq;
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine.UI;
+using TMPro;
 using Unity.Cinemachine;
 using JetBrains.Annotations;
 
@@ -279,6 +281,10 @@ public class Player : MonoBehaviour
         {
             endGameImage.SetActive(true);
         }
+    }
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenuScene");
     }
     
 }
