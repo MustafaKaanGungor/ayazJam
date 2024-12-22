@@ -212,36 +212,6 @@ public class Player : MonoBehaviour
     {
         attackPower += 1;
     }
-    // void CallSword(Vector3 direction)
-    // {
-    //     GameObject swordObject = Instantiate(sword,transform.position,Quaternion.identity);
-    //     Rigidbody2D rigidbody = swordObject.GetComponent<Rigidbody2D>();
-    //     Vector3 firstPos = swordObject.transform.localPosition;
-    //     isSwordMax = false;
-        
-        
-    //     if(!isSwordMax)
-    //     {
-    //     ;
-    //     }
-    //     StartCoroutine("SwordMaxPos");
-    //     if(isSwordMax)
-    //     {
-    //     rigidbody.linearVelocity = -direction.normalized;
-    //     }
-        
-    //     // if(swordObject.transform.localPosition.y <= 0)
-    //     // {
-    //     //     Destroy(swordObject);
-    //     // }
-
-    // }
-    // IEnumerator SwordMaxPos()
-    // {
-    //     yield return new WaitForSeconds(swordMaxTime);
-    //     isSwordMax = true;
-    // }
-    
 
     
 }

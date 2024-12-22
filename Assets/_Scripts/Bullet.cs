@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    private Rigidbody2D rb;
+    public Rigidbody2D rb;
     
     [SerializeField] private float bulletForce;
     [SerializeField] private int damage;
@@ -19,7 +19,7 @@ public class Bullet : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D collider)
     {
-        if(collider.tag != "Enemy")
+        if(!collider.CompareTag("Sword")) 
         {
             Destroy(gameObject);
         }
@@ -28,6 +28,11 @@ public class Bullet : MonoBehaviour
             player = collider.GetComponent<Player>();
             player.TakeDamage(damage);
 
+        }
+        if(collider.tag == "Enemy")
+        {
+            Enemy enemy = collider.transform.GetComponent<Enemy>();
+            enemy.TakeDamage(damage);
         }
         
     }

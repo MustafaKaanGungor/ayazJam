@@ -39,6 +39,11 @@ public class Sword : MonoBehaviour
         impulse.GenerateImpulse();
         
     }
+    if(collider.CompareTag("Bullet"))
+    {
+        Bullet bullet = collider.transform.GetComponent<Bullet>();
+        bullet.rb.linearVelocity *= -1;
+    }
    }
    void Update()
    {
