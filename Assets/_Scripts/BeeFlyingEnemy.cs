@@ -11,16 +11,19 @@ public class BeeFlyingEnemy : Enemy
     private Player player;
     private Rigidbody2D rb;
     [SerializeField] private float movementSpeed;
+    private Animator animator;
 
     void Start()
     {
         playerTransform = GameObject.Find("Player").transform;
         player = playerTransform.GetComponent<Player>();
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
     public override void Attack(Vector3 direction)
     {
         player.TakeDamage(damage);
+        animator.SetTrigger("Attack");
         timer = 0;
     }
     

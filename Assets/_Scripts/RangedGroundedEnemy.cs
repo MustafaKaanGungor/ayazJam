@@ -9,11 +9,15 @@ public class RangedGroundedEnemy : Enemy
     private float timer;
 
     [SerializeField] private Transform muzzle;
+
+    private void Start() {
+        animator = GetComponent<Animator>();
+    }
     
     public override void Attack(Vector3 direction)
     {
         Instantiate(bullet,muzzle.position,Quaternion.Euler(direction));
-
+        animator.SetTrigger("Attack");
         timer = 0;
     }
     

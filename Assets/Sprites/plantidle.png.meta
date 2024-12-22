@@ -1,25 +1,19 @@
 fileFormatVersion: 2
-guid: 5286f5972bb3a9543a018c69f1dcd021
+guid: 5b8232ad079038d43ae97c93af6bffc3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9081952269672232837
-    second: "a\u011Fa\xE7animasyon_0"
+      213: -1673558185524450682
+    second: plantidle_0
   - first:
-      213: 2230199183161302888
-    second: "a\u011Fa\xE7animasyon_1"
+      213: -5252790590577529130
+    second: plantidle_1
   - first:
-      213: 2800110961081700079
-    second: "a\u011Fa\xE7animasyon_2"
+      213: 2267888195716078404
+    second: plantidle_2
   - first:
-      213: -820755189219850471
-    second: "a\u011Fa\xE7animasyon_3"
-  - first:
-      213: -7192507263309269959
-    second: "a\u011Fa\xE7animasyon_4"
-  - first:
-      213: 6410364204432315230
-    second: "a\u011Fa\xE7animasyon_5"
+      213: -790188611056926102
+    second: plantidle_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,7 +110,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,133 +122,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "a\u011Fa\xE7animasyon_0"
+      name: plantidle_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 2
-        width: 33
-        height: 40
+        x: 10
+        y: 0
+        width: 26
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b78422b678c66f180800000000000000
-      internalID: -9081952269672232837
+      spriteID: 68a2ed872b356c8e0800000000000000
+      internalID: -1673558185524450682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "a\u011Fa\xE7animasyon_1"
+      name: plantidle_1
       rect:
         serializedVersion: 2
-        x: 56
-        y: 2
-        width: 33
-        height: 40
+        x: 58
+        y: 0
+        width: 26
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 86f12ba475243fe10800000000000000
-      internalID: 2230199183161302888
+      spriteID: 6deac11d9c65a17b0800000000000000
+      internalID: -5252790590577529130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "a\u011Fa\xE7animasyon_2"
+      name: plantidle_2
       rect:
         serializedVersion: 2
-        x: 104
-        y: 2
-        width: 33
-        height: 40
+        x: 106
+        y: 0
+        width: 26
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: feec3fe551efbd620800000000000000
-      internalID: 2800110961081700079
+      spriteID: 44b55f75c48297f10800000000000000
+      internalID: 2267888195716078404
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "a\u011Fa\xE7animasyon_3"
+      name: plantidle_3
       rect:
         serializedVersion: 2
-        x: 152
-        y: 2
-        width: 33
-        height: 40
+        x: 154
+        y: 0
+        width: 26
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9170ef201871c94f0800000000000000
-      internalID: -820755189219850471
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "a\u011Fa\xE7animasyon_4"
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 2
-        width: 33
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 934b80660c41f2c90800000000000000
-      internalID: -7192507263309269959
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "a\u011Fa\xE7animasyon_5"
-      rect:
-        serializedVersion: 2
-        x: 248
-        y: 2
-        width: 33
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e535116c74036f850800000000000000
-      internalID: 6410364204432315230
+      spriteID: a62846415afa805f0800000000000000
+      internalID: -790188611056926102
       vertices: []
       indices: 
       edges: []
@@ -263,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: eb227506278a193468e46137a65095d8
+    spriteID: 53cd2c3176a09e94fa2868b206c2492e
     internalID: 0
     vertices: []
     indices: 
@@ -273,12 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "a\u011Fa\xE7animasyon_0": -9081952269672232837
-      "a\u011Fa\xE7animasyon_1": 2230199183161302888
-      "a\u011Fa\xE7animasyon_2": 2800110961081700079
-      "a\u011Fa\xE7animasyon_3": -820755189219850471
-      "a\u011Fa\xE7animasyon_4": -7192507263309269959
-      "a\u011Fa\xE7animasyon_5": 6410364204432315230
+      plantidle_0: -1673558185524450682
+      plantidle_1: -5252790590577529130
+      plantidle_2: 2267888195716078404
+      plantidle_3: -790188611056926102
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -14,11 +14,13 @@ public class Enemy : MonoBehaviour
     public Transform playerTransform;
 
 
+    public Animator animator;
     
 
     void Start()
     {
         playerTransform = GameObject.Find("Player").transform;
+        
     }
 
 
@@ -49,6 +51,7 @@ public class Enemy : MonoBehaviour
     public void TakeDamage(int damage)
     {
         healt -= damage;
+        animator.SetTrigger("GotDamaged");
     }
     public void Die()
     {

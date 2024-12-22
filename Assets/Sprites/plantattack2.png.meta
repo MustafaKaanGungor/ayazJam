@@ -1,25 +1,28 @@
 fileFormatVersion: 2
-guid: 5286f5972bb3a9543a018c69f1dcd021
+guid: bca529fd485b8d54bbf3656019982749
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9081952269672232837
-    second: "a\u011Fa\xE7animasyon_0"
+      213: 1008737124992348316
+    second: plantattack2_0
   - first:
-      213: 2230199183161302888
-    second: "a\u011Fa\xE7animasyon_1"
+      213: -521324637689478339
+    second: plantattack2_1
   - first:
-      213: 2800110961081700079
-    second: "a\u011Fa\xE7animasyon_2"
+      213: -5466564152048097804
+    second: plantattack2_2
   - first:
-      213: -820755189219850471
-    second: "a\u011Fa\xE7animasyon_3"
+      213: 1533470096850995674
+    second: plantattack2_3
   - first:
-      213: -7192507263309269959
-    second: "a\u011Fa\xE7animasyon_4"
+      213: 1359477430447340506
+    second: plantattack2_4
   - first:
-      213: 6410364204432315230
-    second: "a\u011Fa\xE7animasyon_5"
+      213: -6049502390774311846
+    second: plantattack2_5
+  - first:
+      213: 9022080891002959268
+    second: plantattack2_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,7 +119,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,13 +131,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "a\u011Fa\xE7animasyon_0"
+      name: plantattack2_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 2
-        width: 33
-        height: 40
+        x: 0
+        y: 0
+        width: 61
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +146,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b78422b678c66f180800000000000000
-      internalID: -9081952269672232837
+      spriteID: c90fae61211cffd00800000000000000
+      internalID: 1008737124992348316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "a\u011Fa\xE7animasyon_1"
+      name: plantattack2_1
       rect:
         serializedVersion: 2
-        x: 56
-        y: 2
-        width: 33
-        height: 40
+        x: 61
+        y: 0
+        width: 61
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 86f12ba475243fe10800000000000000
-      internalID: 2230199183161302888
+      spriteID: d330cdd0102e3c8f0800000000000000
+      internalID: -521324637689478339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "a\u011Fa\xE7animasyon_2"
+      name: plantattack2_2
       rect:
         serializedVersion: 2
-        x: 104
-        y: 2
-        width: 33
-        height: 40
+        x: 122
+        y: 0
+        width: 61
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +190,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: feec3fe551efbd620800000000000000
-      internalID: 2800110961081700079
+      spriteID: 4f5e947eddcd224b0800000000000000
+      internalID: -5466564152048097804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "a\u011Fa\xE7animasyon_3"
+      name: plantattack2_3
       rect:
         serializedVersion: 2
-        x: 152
-        y: 2
-        width: 33
-        height: 40
+        x: 183
+        y: 0
+        width: 61
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,20 +212,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9170ef201871c94f0800000000000000
-      internalID: -820755189219850471
+      spriteID: ad9cc7cadeaf74510800000000000000
+      internalID: 1533470096850995674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "a\u011Fa\xE7animasyon_4"
+      name: plantattack2_4
       rect:
         serializedVersion: 2
-        x: 200
-        y: 2
-        width: 33
-        height: 40
+        x: 244
+        y: 0
+        width: 61
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,20 +234,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 934b80660c41f2c90800000000000000
-      internalID: -7192507263309269959
+      spriteID: adb79f92585ddd210800000000000000
+      internalID: 1359477430447340506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "a\u011Fa\xE7animasyon_5"
+      name: plantattack2_5
       rect:
         serializedVersion: 2
-        x: 248
-        y: 2
-        width: 33
-        height: 40
+        x: 305
+        y: 0
+        width: 61
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,8 +256,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e535116c74036f850800000000000000
-      internalID: 6410364204432315230
+      spriteID: a54550290a9db0ca0800000000000000
+      internalID: -6049502390774311846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantattack2_6
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 0
+        width: 61
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a53213f4ced43d70800000000000000
+      internalID: 9022080891002959268
       vertices: []
       indices: 
       edges: []
@@ -263,7 +288,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: eb227506278a193468e46137a65095d8
+    spriteID: 5629d08d8907c35469392828de9eb801
     internalID: 0
     vertices: []
     indices: 
@@ -273,12 +298,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "a\u011Fa\xE7animasyon_0": -9081952269672232837
-      "a\u011Fa\xE7animasyon_1": 2230199183161302888
-      "a\u011Fa\xE7animasyon_2": 2800110961081700079
-      "a\u011Fa\xE7animasyon_3": -820755189219850471
-      "a\u011Fa\xE7animasyon_4": -7192507263309269959
-      "a\u011Fa\xE7animasyon_5": 6410364204432315230
+      plantattack2_0: 1008737124992348316
+      plantattack2_1: -521324637689478339
+      plantattack2_2: -5466564152048097804
+      plantattack2_3: 1533470096850995674
+      plantattack2_4: 1359477430447340506
+      plantattack2_5: -6049502390774311846
+      plantattack2_6: 9022080891002959268
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
