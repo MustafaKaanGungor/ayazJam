@@ -7,11 +7,13 @@ using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine.UI;
 using Unity.Cinemachine;
+using JetBrains.Annotations;
 
 public class Player : MonoBehaviour
 {
     #region "Hareket"
     public Rigidbody2D playerRb;
+    
     public Camera cam;
     private bool isSwordMax;
     private float swordMaxValue;
@@ -53,6 +55,7 @@ public class Player : MonoBehaviour
     public int healt;
     public int maxHealth;
     public Slider slider;
+    public GameObject endGameImage;
     #endregion
 
     #region "Player deger"
@@ -73,6 +76,7 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        Die();
         dashTimer += Time.deltaTime;
         dashSlider.value = dashTimer;
         if(dashTimer > timeBetweenDashes) {
@@ -269,4 +273,12 @@ public class Player : MonoBehaviour
         healthP = 5;
         slider.value = healthP;
     }
+    void Die()
+    {
+        if(healthP <= 0)
+        {
+            endGameImage.SetActive(true);
+        }
+    }
+    
 }
