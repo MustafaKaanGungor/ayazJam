@@ -104,16 +104,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82ede92c7b73f0e46a287e8c3cd2c191, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerRb: {fileID: 0}
   cam: {fileID: 0}
-  sword: {fileID: 0}
-  swordMaxTime: 0
+  mousePos: {x: 0, y: 0, z: 0}
+  "sword\u0130nTheScenes": 0
+  swordPrefab: {fileID: 6766483052022123758, guid: 16672a5c471b28a45bcfcf0ef33ebd45, type: 3}
+  swordMaxTime: 0.2
+  swordDirection: {x: 0, y: 0, z: 0}
   timeBetweenDashes: 3
-  attackDuration: 0.8
+  attackDuration: 0.28
   isAttacked: 0
   dashForce: 2
   moveSpeed: 1000
-  attackDashForce: 3
+  attackDashForce: 3.5
   attackPower: 1
+  swordTrigger: 0
+  swordForce: 10
+  expectedSwordTimer: 0.2
   dashSlider: {fileID: 0}
   healt: 80
   maxHealth: 0
