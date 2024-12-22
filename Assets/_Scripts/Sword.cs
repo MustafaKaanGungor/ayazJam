@@ -17,6 +17,7 @@ public class Sword : MonoBehaviour
     private bool canDestroy = false;
     [SerializeField] private float swordForce;
     [SerializeField] private float swordLerpTime;
+    [SerializeField] private float pushForce;
 
     private void Start() {
         rb = GetComponent<Rigidbody2D>();
@@ -30,10 +31,12 @@ public class Sword : MonoBehaviour
    {
     if(collider.CompareTag("Enemy"))
     {
+        Rigidbody2D rb2 = collider.transform.GetComponent<Rigidbody2D>();
         enemy = collider.GetComponent<Enemy>();
         enemy.TakeDamage(swordDamage);
+        Debug.Log("1");
+        rb2.AddForce(transform.up.normalized * pushForce,ForceMode2D.Impulse);
         impulse.GenerateImpulse();
-        
         
     }
    }

@@ -999,7 +999,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 882811194}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MainMenuScript, Assembly-CSharp
         m_MethodName: Volume
         m_Mode: 0
@@ -1638,60 +1638,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 882811191}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 020a0778c4b5d394da80077bb28cac4d, type: 3}
+  m_Script: {fileID: 11500000, guid: da921e6bf752575408fb7e8c42e4e5db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameLoad: SampleScene
+  gameLoad: 
   brightnessVolume: {fileID: 860291075}
   brightnessSlider: {fileID: 1032840438}
-  volumeTextValue: {fileID: 1609872207}
+  volumeTextValue: {fileID: 901160536}
   volumeSlider: {fileID: 749236041}
-  BackgroundImage: {fileID: 1202006600}
-  images:
-  - {fileID: 1398893948369281781, guid: 097300d480f7ba548b60cb11a8a88d38, type: 3}
-  - {fileID: -5020514758781672274, guid: 63362bcfb6da4b74cace6ea56d157c2e, type: 3}
-  - {fileID: -8157403806559461926, guid: 1d01f00ec15d6304e82c963d0fbb403f, type: 3}
-  - {fileID: 7393637447140822919, guid: e867eaff2697ea24498d8ce61091ef3b, type: 3}
-  - {fileID: -1635119059196159038, guid: 38e6788ffa66c904bb00199b00b7723b, type: 3}
-  - {fileID: -4805474362232562877, guid: 9632dd3cc4dbb8645b8e6cbbb4254ad0, type: 3}
-  - {fileID: 3081803767075380834, guid: d54be63dfa977324c86cb1c16cb9e7f3, type: 3}
-  - {fileID: -1740465371806981922, guid: 716e9a88922b25c4492aecd86d003b2f, type: 3}
-  - {fileID: 6113408768302795413, guid: 5d282f0706086aa41b0decaf41c9a7a8, type: 3}
-  - {fileID: 5889840621171850545, guid: e3aee9d7d9ff5324fb32b496cde79aa3, type: 3}
-  - {fileID: 2121007489110619165, guid: 3d9c50796b8c8c449b04345c93e17068, type: 3}
-  - {fileID: 157339562763295957, guid: 4856312e93805934f9e51893e86854c5, type: 3}
-  - {fileID: -757986914722993477, guid: b6d09d751bb063a4ea695d7624af7685, type: 3}
-  - {fileID: 8077101660444750309, guid: 596e3faecfe16cf459a5eac2bb732f2e, type: 3}
-  - {fileID: -2447957533611469693, guid: e286da188d6054b40a951b67a5e209c2, type: 3}
-  - {fileID: -6108388369658262279, guid: 3b8d4aae2cf1fbd4fa592bbc8413274b, type: 3}
-  - {fileID: 6615707451863981085, guid: 12e923dc4ff98bc4a8a783e24003d838, type: 3}
-  - {fileID: -9163856394461031770, guid: 89a0100dab0ae0d43b25770a0f3fb019, type: 3}
-  - {fileID: 5474023684466338347, guid: ce4580622783498478322b441acfd0a6, type: 3}
-  - {fileID: 5148330881964248699, guid: c45b083691837d347a24c393a4b73fcf, type: 3}
-  - {fileID: -3090774043538018, guid: 5e48019087b36334282153651a1d50c0, type: 3}
-  - {fileID: 6683355981526664022, guid: 526ee2b98910f80428103115e05eecf4, type: 3}
-  - {fileID: 6195591863689153183, guid: 56f08c198918a5544b8c3bb1fa23702d, type: 3}
-  - {fileID: -4409263772147610761, guid: d70936a086d8d2348b1a15e06873c6dd, type: 3}
-  - {fileID: 7329254439357479272, guid: 577ad5e3cfa044043b86db92a105eb47, type: 3}
-  - {fileID: -7134102845981008335, guid: a5eb973a30c9ca5419cbbf9f8d4fbabf, type: 3}
-  - {fileID: 4658433645926868496, guid: 5ff079f50e11a5340b83b6898f9a7e41, type: 3}
-  - {fileID: -2087063918583076799, guid: 9e9f1b0f52e805643a53ed748b7c1080, type: 3}
-  - {fileID: -3284192879701019071, guid: 2fb28f47925562d4b8e98033966931f1, type: 3}
-  - {fileID: 3040824288299737945, guid: 371606e4770b7f34f935c035df31b982, type: 3}
-  - {fileID: 8789092702707447028, guid: 5e39009899ea1c444936b22724f55e0d, type: 3}
-  - {fileID: 7671314804842399953, guid: 37521334c23c1bc40b8862cb62ccdcc7, type: 3}
-  - {fileID: 7525539071338437702, guid: 131a679667e5bed4b87bed1a08185345, type: 3}
-  - {fileID: 9056204955334923371, guid: 089492ee9dab10c4c8f24b9dc5665b03, type: 3}
-  - {fileID: -3502519926681316110, guid: f53aab8174b2cc94f974ce3a14141717, type: 3}
-  - {fileID: 5402926374138386560, guid: a75da5916afe10d4f9e4e2aa769763cf, type: 3}
-  - {fileID: 6708244754723947471, guid: 67067007b86a8fa4795b44e94387a11a, type: 3}
-  - {fileID: -4455203891360909078, guid: e72591cee37becb42a4afdf356525e01, type: 3}
-  - {fileID: -3707493608670599316, guid: 52d12010d4b2d8b49bfbc6083af1e803, type: 3}
-  - {fileID: 6164151668088378705, guid: 48a47c1d5e9c92d4c9f0385372204dfb, type: 3}
-  - {fileID: 7506273071643766685, guid: e327cc5eac6e502469655db0bdec698e, type: 3}
-  - {fileID: -2430589492702354321, guid: 014d1ede42879864387c90d369a5004c, type: 3}
-  - {fileID: 1130426555108497411, guid: 5759799fd17945e42a9ee6ed23ee0983, type: 3}
-  timeToWait: 1
+  BackgroundImage: {fileID: 0}
+  images: []
+  timeToWait: 0
   profile: {fileID: 11400000, guid: f23ef7971948b1e4bb240ab9f4098623, type: 2}
 --- !u!1 &901160534
 GameObject:
@@ -2128,7 +2085,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 882811194}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MainMenuScript, Assembly-CSharp
         m_MethodName: LoadGame
         m_Mode: 1
@@ -2140,7 +2097,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 882811194}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MainMenuScript, Assembly-CSharp
         m_MethodName: DontDestroyAudioManager
         m_Mode: 2
@@ -2341,7 +2298,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 882811194}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MainMenuScript, Assembly-CSharp
         m_MethodName: Brightness
         m_Mode: 0
@@ -4017,7 +3974,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 882811194}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MainMenuScript, Assembly-CSharp
         m_MethodName: ExitGame
         m_Mode: 1
@@ -4303,10 +4260,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1744802498}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e79222efb62f7441ab60cb6180820ad, type: 3}
+  m_Script: {fileID: 11500000, guid: 43676819c6ad23544b841beea6b8a0b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slowedTime: 0.5
+  slowedTime: 0
 --- !u!1 &1803141898
 GameObject:
   m_ObjectHideFlags: 0

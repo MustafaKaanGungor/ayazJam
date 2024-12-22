@@ -162,8 +162,9 @@ MonoBehaviour:
   impulse: {fileID: 0}
   player: {fileID: 0}
   swordWaitTime: 0.28
-  swordForce: 4.19
+  swordForce: 4.69
   swordLerpTime: 0.3
+  pushForce: 52.9
 --- !u!50 &7205752354468652258
 Rigidbody2D:
   serializedVersion: 5

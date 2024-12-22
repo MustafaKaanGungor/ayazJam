@@ -174,8 +174,13 @@ public class Player : MonoBehaviour
         isAttacked = true;
         GameObject sword = Instantiate(swordPrefab, transform.position, Quaternion.identity);
         sword.transform.SetParent(transform);
+        SwordDashForce();
         StartCoroutine("AttackTime");
         
+    }
+    void SwordDashForce()
+    {
+        playerRb.AddForce(swordDirection.normalized * attackDashForce, ForceMode2D.Impulse);
     }
 
     public void TakeDamage(int damage)
