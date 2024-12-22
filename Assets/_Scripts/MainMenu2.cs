@@ -16,6 +16,7 @@ public class MainMenu2 : MonoBehaviour
     public float animationLenght;
     public float timer;
     public bool isStarted;
+    private bool isSkipped;
 
     public void LoadGame()
     {
@@ -41,8 +42,16 @@ public class MainMenu2 : MonoBehaviour
             Background.SetActive(false);
             animationİmage.SetActive(false);
             videoİmage.SetActive(true);
+            if(Input.GetKeyDown(KeyCode.Space))
+        {
+            isSkipped = true;
+        }
         }
         if(timer > videoLenght)
+        {
+            LoadGame();
+        }
+        if(isSkipped)
         {
             LoadGame();
         }
