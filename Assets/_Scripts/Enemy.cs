@@ -51,6 +51,7 @@ public class Enemy : MonoBehaviour
     public void TakeDamage(int damage)
     {
         healt -= damage;
+        animator.SetTrigger("GotDamaged");
     }
     public void Die()
     {

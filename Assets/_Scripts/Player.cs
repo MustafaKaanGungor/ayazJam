@@ -186,6 +186,7 @@ public class Player : MonoBehaviour
     public void TakeDamage(int damage)
     {
         healt -= damage;
+        animator.SetTrigger("GotDamaged");
     }
 
     IEnumerator WaitForDash()

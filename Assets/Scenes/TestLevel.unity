@@ -330,11 +330,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 72350658}
   m_CullTransparentMesh: 1
---- !u!4 &101128113 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4835251248703209294, guid: d160c7df0edf4e5449b19b33518940cc, type: 3}
-  m_PrefabInstance: {fileID: 254807194}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &254807194
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -343,14 +338,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -6847481678595452356, guid: d160c7df0edf4e5449b19b33518940cc, type: 3}
-      propertyPath: bullet
-      value: 
-      objectReference: {fileID: 3307299312786357223, guid: f86f70805d6f84947852ee35e0f4c5df, type: 3}
-    - target: {fileID: -6847481678595452356, guid: d160c7df0edf4e5449b19b33518940cc, type: 3}
-      propertyPath: muzzle
-      value: 
-      objectReference: {fileID: 101128113}
     - target: {fileID: -6847481678595452356, guid: d160c7df0edf4e5449b19b33518940cc, type: 3}
       propertyPath: playerTransform
       value: 
@@ -1531,6 +1518,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1272964395940134685, guid: 9a9eed6e256e9f84fb6cb20927fb99d5, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1274540329}
     - target: {fileID: 7419753093561767086, guid: 9a9eed6e256e9f84fb6cb20927fb99d5, type: 3}
       propertyPath: m_Name
       value: BeeEnemy
@@ -1702,6 +1693,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1184082154}
   m_CullTransparentMesh: 1
+--- !u!95 &1274540329 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7353835551487669280, guid: 9a9eed6e256e9f84fb6cb20927fb99d5, type: 3}
+  m_PrefabInstance: {fileID: 1137005146}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1299777917
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1749,6 +1745,14 @@ PrefabInstance:
     - target: {fileID: 5003901504815060086, guid: 85b11624cd27fc940930d75997db23d3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7455911059940933731, guid: 85b11624cd27fc940930d75997db23d3, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1993965942}
+    - target: {fileID: 7455911059940933731, guid: 85b11624cd27fc940930d75997db23d3, type: 3}
+      propertyPath: attackPerMinute
+      value: 69
       objectReference: {fileID: 0}
     - target: {fileID: 8093097281409101466, guid: 85b11624cd27fc940930d75997db23d3, type: 3}
       propertyPath: m_Name
@@ -2446,6 +2450,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1928402369}
   m_CullTransparentMesh: 1
+--- !u!95 &1993965942 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3031484194202040279, guid: 85b11624cd27fc940930d75997db23d3, type: 3}
+  m_PrefabInstance: {fileID: 1299777917}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2085984042
 GameObject:
   m_ObjectHideFlags: 0

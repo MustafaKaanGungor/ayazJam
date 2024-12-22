@@ -215,9 +215,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healt: 0
   damage: 20
-  attackPerMinute: 20
+  attackPerMinute: 69
   playerTransform: {fileID: 0}
-  animator: {fileID: 0}
+  animator: {fileID: 3031484194202040279}
 --- !u!95 &3031484194202040279
 Animator:
   serializedVersion: 7
