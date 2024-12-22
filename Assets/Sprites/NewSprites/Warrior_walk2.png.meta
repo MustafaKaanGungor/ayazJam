@@ -1,43 +1,31 @@
 fileFormatVersion: 2
-guid: 1ebc357ab434d164198d97bfc6ee99bf
+guid: ed1564b74e44a5a4e9d54548db4bb3b6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7374723201751921312
-    second: titlemapdungeon_0
+      213: 2518146994880177255
+    second: Warrior_walk2_0
   - first:
-      213: -504257631106228705
-    second: titlemapdungeon_1
+      213: 2564887399659637508
+    second: Warrior_walk2_1
   - first:
-      213: 822256454031474242
-    second: titlemapdungeon_2
+      213: -6151841254884249702
+    second: Warrior_walk2_2
   - first:
-      213: 5427273683882941892
-    second: titlemapdungeon_3
+      213: 3639819644458749982
+    second: Warrior_walk2_3
   - first:
-      213: 5589065649658642660
-    second: titlemapdungeon_4
+      213: 5478939495740164967
+    second: Warrior_walk2_4
   - first:
-      213: -3780764007134952915
-    second: titlemapdungeon_5
+      213: 8631075407900862337
+    second: Warrior_walk2_5
   - first:
-      213: 7391648638124179735
-    second: titlemapdungeon_6
+      213: 907215736087246494
+    second: Warrior_walk2_6
   - first:
-      213: -7280798336012633213
-    second: titlemapdungeon_7
-  - first:
-      213: 7627846693082752152
-    second: titlemapdungeon_8
-  - first:
-      213: 5560801623762968722
-    second: titlemapdungeon_9
-  - first:
-      213: -5156637774599358636
-    second: titlemapdungeon_10
-  - first:
-      213: -1495558969994653072
-    second: titlemapdungeon_11
+      213: -5936931900335620303
+    second: Warrior_walk2_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -70,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,9 +72,9 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -108,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -134,7 +122,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -147,7 +135,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -159,13 +147,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: titlemapdungeon_0
+      name: Warrior_walk2_0
       rect:
         serializedVersion: 2
-        x: 128
-        y: 328
-        width: 64
-        height: 64
+        x: 4
+        y: 0
+        width: 32
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 06dceba2258b7a990800000000000000
-      internalID: -7374723201751921312
+      spriteID: 764ec02a95142f220800000000000000
+      internalID: 2518146994880177255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: titlemapdungeon_1
+      name: Warrior_walk2_1
       rect:
         serializedVersion: 2
-        x: 256
-        y: 328
-        width: 64
-        height: 64
+        x: 45
+        y: 0
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f1e12ae2b548009f0800000000000000
-      internalID: -504257631106228705
+      spriteID: 40b8699208f489320800000000000000
+      internalID: 2564887399659637508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: titlemapdungeon_2
+      name: Warrior_walk2_2
       rect:
         serializedVersion: 2
-        x: 448
-        y: 328
-        width: 64
-        height: 64
+        x: 86
+        y: 0
+        width: 32
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 24e71d073ed396b00800000000000000
-      internalID: 822256454031474242
+      spriteID: a9fe708f8f440aaa0800000000000000
+      internalID: -6151841254884249702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: titlemapdungeon_3
+      name: Warrior_walk2_3
       rect:
         serializedVersion: 2
-        x: 320
-        y: 264
-        width: 64
-        height: 64
+        x: 127
+        y: 0
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,20 +228,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4cd1baa19ac815b40800000000000000
-      internalID: 5427273683882941892
+      spriteID: e10d37a9eac338230800000000000000
+      internalID: 3639819644458749982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: titlemapdungeon_4
+      name: Warrior_walk2_4
       rect:
         serializedVersion: 2
-        x: 128
-        y: 200
-        width: 64
-        height: 64
+        x: 168
+        y: 0
+        width: 32
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e0cd32a899509d40800000000000000
-      internalID: 5589065649658642660
+      spriteID: 76b4375517a190c40800000000000000
+      internalID: 5478939495740164967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: titlemapdungeon_5
+      name: Warrior_walk2_5
       rect:
         serializedVersion: 2
-        x: 64
-        y: 136
-        width: 64
-        height: 64
+        x: 209
+        y: 0
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,20 +272,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d228327ba27088bc0800000000000000
-      internalID: -3780764007134952915
+      spriteID: 1876a85aa5db7c770800000000000000
+      internalID: 8631075407900862337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: titlemapdungeon_6
+      name: Warrior_walk2_6
       rect:
         serializedVersion: 2
-        x: 256
-        y: 136
-        width: 64
-        height: 64
+        x: 250
+        y: 0
+        width: 32
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,20 +294,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71144e31649649660800000000000000
-      internalID: 7391648638124179735
+      spriteID: e96ff14c7e3179c00800000000000000
+      internalID: 907215736087246494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: titlemapdungeon_7
+      name: Warrior_walk2_7
       rect:
         serializedVersion: 2
-        x: 384
-        y: 136
-        width: 64
-        height: 64
+        x: 291
+        y: 0
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,30 +316,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38b36bc1d7865fa90800000000000000
-      internalID: -7280798336012633213
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: titlemapdungeon_8
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 72
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 894e55e372e8bd960800000000000000
-      internalID: 7627846693082752152
+      spriteID: 13f7fc054e7cb9da0800000000000000
+      internalID: -5936931900335620303
       vertices: []
       indices: 
       edges: []
@@ -360,7 +326,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 850e43e69b3aaad4f8f2c5141c8cacdc
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -369,16 +335,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      titlemapdungeon_0: -7374723201751921312
-      titlemapdungeon_1: -504257631106228705
-      titlemapdungeon_2: 822256454031474242
-      titlemapdungeon_3: 5427273683882941892
-      titlemapdungeon_4: 5589065649658642660
-      titlemapdungeon_5: -3780764007134952915
-      titlemapdungeon_6: 7391648638124179735
-      titlemapdungeon_7: -7280798336012633213
-      titlemapdungeon_8: 7627846693082752152
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

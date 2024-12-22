@@ -1,43 +1,10 @@
 fileFormatVersion: 2
-guid: 1ebc357ab434d164198d97bfc6ee99bf
+guid: 235a7f886f302dc4dadc83364e5e1acc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7374723201751921312
-    second: titlemapdungeon_0
-  - first:
-      213: -504257631106228705
-    second: titlemapdungeon_1
-  - first:
-      213: 822256454031474242
-    second: titlemapdungeon_2
-  - first:
-      213: 5427273683882941892
-    second: titlemapdungeon_3
-  - first:
-      213: 5589065649658642660
-    second: titlemapdungeon_4
-  - first:
-      213: -3780764007134952915
-    second: titlemapdungeon_5
-  - first:
-      213: 7391648638124179735
-    second: titlemapdungeon_6
-  - first:
-      213: -7280798336012633213
-    second: titlemapdungeon_7
-  - first:
-      213: 7627846693082752152
-    second: titlemapdungeon_8
-  - first:
-      213: 5560801623762968722
-    second: titlemapdungeon_9
-  - first:
-      213: -5156637774599358636
-    second: titlemapdungeon_10
-  - first:
-      213: -1495558969994653072
-    second: titlemapdungeon_11
+      213: -4649725926205987829
+    second: tileset2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -84,9 +51,9 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -108,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -134,7 +101,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -147,7 +114,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -159,199 +126,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: titlemapdungeon_0
+      name: tileset2_0
       rect:
         serializedVersion: 2
-        x: 128
-        y: 328
-        width: 64
-        height: 64
+        x: 0
+        y: 36
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 06dceba2258b7a990800000000000000
-      internalID: -7374723201751921312
+      spriteID: 36e35cfd73255964db9a9c85f7f6d598
+      internalID: -4649725926205987829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: titlemapdungeon_1
+      name: tileset2_1
       rect:
         serializedVersion: 2
-        x: 256
-        y: 328
-        width: 64
-        height: 64
+        x: 32
+        y: 36
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f1e12ae2b548009f0800000000000000
-      internalID: -504257631106228705
+      spriteID: 752e628bb0681d44eb7d7a63e7c90e5a
+      internalID: -398613960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: titlemapdungeon_2
+      name: tileset2_2
       rect:
         serializedVersion: 2
-        x: 448
-        y: 328
-        width: 64
-        height: 64
+        x: 16
+        y: 20
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 24e71d073ed396b00800000000000000
-      internalID: 822256454031474242
+      spriteID: c1c205ced26384a4f9d230e67d2353cf
+      internalID: -190019075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: titlemapdungeon_3
+      name: tileset2_3
       rect:
         serializedVersion: 2
-        x: 320
-        y: 264
-        width: 64
-        height: 64
+        x: 0
+        y: 4
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4cd1baa19ac815b40800000000000000
-      internalID: 5427273683882941892
+      spriteID: 86eb867ced84794449e8109b9f1d3f24
+      internalID: -1114693253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: titlemapdungeon_4
+      name: tileset2_4
       rect:
         serializedVersion: 2
-        x: 128
-        y: 200
-        width: 64
-        height: 64
+        x: 32
+        y: 4
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4e0cd32a899509d40800000000000000
-      internalID: 5589065649658642660
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: titlemapdungeon_5
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 136
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d228327ba27088bc0800000000000000
-      internalID: -3780764007134952915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: titlemapdungeon_6
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 136
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 71144e31649649660800000000000000
-      internalID: 7391648638124179735
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: titlemapdungeon_7
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 136
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 38b36bc1d7865fa90800000000000000
-      internalID: -7280798336012633213
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: titlemapdungeon_8
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 72
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 894e55e372e8bd960800000000000000
-      internalID: 7627846693082752152
+      spriteID: b2bb9af842ff021469a81b07943e1bc3
+      internalID: 1052234380
       vertices: []
       indices: 
       edges: []
@@ -360,7 +239,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 850e43e69b3aaad4f8f2c5141c8cacdc
+    spriteID: 3a051cedad3a0d24baf3fd39f3cadaa2
     internalID: 0
     vertices: []
     indices: 
@@ -370,15 +249,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      titlemapdungeon_0: -7374723201751921312
-      titlemapdungeon_1: -504257631106228705
-      titlemapdungeon_2: 822256454031474242
-      titlemapdungeon_3: 5427273683882941892
-      titlemapdungeon_4: 5589065649658642660
-      titlemapdungeon_5: -3780764007134952915
-      titlemapdungeon_6: 7391648638124179735
-      titlemapdungeon_7: -7280798336012633213
-      titlemapdungeon_8: 7627846693082752152
+      tileset2_0: -4649725926205987829
+      tileset2_1: -398613960
+      tileset2_2: -190019075
+      tileset2_3: -1114693253
+      tileset2_4: 1052234380
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

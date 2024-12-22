@@ -1,43 +1,28 @@
 fileFormatVersion: 2
-guid: 1ebc357ab434d164198d97bfc6ee99bf
+guid: 884db36fcc0ad3f4eb0d73feac7b2410
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7374723201751921312
-    second: titlemapdungeon_0
+      213: 1008737124992348316
+    second: plantattack2_0
   - first:
-      213: -504257631106228705
-    second: titlemapdungeon_1
+      213: -521324637689478339
+    second: plantattack2_1
   - first:
-      213: 822256454031474242
-    second: titlemapdungeon_2
+      213: -5466564152048097804
+    second: plantattack2_2
   - first:
-      213: 5427273683882941892
-    second: titlemapdungeon_3
+      213: 1533470096850995674
+    second: plantattack2_3
   - first:
-      213: 5589065649658642660
-    second: titlemapdungeon_4
+      213: 1359477430447340506
+    second: plantattack2_4
   - first:
-      213: -3780764007134952915
-    second: titlemapdungeon_5
+      213: -6049502390774311846
+    second: plantattack2_5
   - first:
-      213: 7391648638124179735
-    second: titlemapdungeon_6
-  - first:
-      213: -7280798336012633213
-    second: titlemapdungeon_7
-  - first:
-      213: 7627846693082752152
-    second: titlemapdungeon_8
-  - first:
-      213: 5560801623762968722
-    second: titlemapdungeon_9
-  - first:
-      213: -5156637774599358636
-    second: titlemapdungeon_10
-  - first:
-      213: -1495558969994653072
-    second: titlemapdungeon_11
+      213: 9022080891002959268
+    second: plantattack2_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -70,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,9 +69,9 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -108,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -134,7 +119,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -147,7 +132,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -159,13 +144,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: titlemapdungeon_0
+      name: plantattack2_0
       rect:
         serializedVersion: 2
-        x: 128
-        y: 328
-        width: 64
-        height: 64
+        x: 18
+        y: 0
+        width: 26
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 06dceba2258b7a990800000000000000
-      internalID: -7374723201751921312
+      spriteID: c90fae61211cffd00800000000000000
+      internalID: 1008737124992348316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: titlemapdungeon_1
+      name: plantattack2_1
       rect:
         serializedVersion: 2
-        x: 256
-        y: 328
-        width: 64
-        height: 64
+        x: 82
+        y: 0
+        width: 24
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f1e12ae2b548009f0800000000000000
-      internalID: -504257631106228705
+      spriteID: d330cdd0102e3c8f0800000000000000
+      internalID: -521324637689478339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: titlemapdungeon_2
+      name: plantattack2_2
       rect:
         serializedVersion: 2
-        x: 448
-        y: 328
-        width: 64
-        height: 64
+        x: 143
+        y: 0
+        width: 24
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 24e71d073ed396b00800000000000000
-      internalID: 822256454031474242
+      spriteID: 4f5e947eddcd224b0800000000000000
+      internalID: -5466564152048097804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: titlemapdungeon_3
+      name: plantattack2_3
       rect:
         serializedVersion: 2
-        x: 320
-        y: 264
-        width: 64
-        height: 64
+        x: 206
+        y: 0
+        width: 29
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,20 +225,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4cd1baa19ac815b40800000000000000
-      internalID: 5427273683882941892
+      spriteID: ad9cc7cadeaf74510800000000000000
+      internalID: 1533470096850995674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: titlemapdungeon_4
+      name: plantattack2_4
       rect:
         serializedVersion: 2
-        x: 128
-        y: 200
-        width: 64
-        height: 64
+        x: 267
+        y: 0
+        width: 29
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,20 +247,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e0cd32a899509d40800000000000000
-      internalID: 5589065649658642660
+      spriteID: adb79f92585ddd210800000000000000
+      internalID: 1359477430447340506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: titlemapdungeon_5
+      name: plantattack2_5
       rect:
         serializedVersion: 2
-        x: 64
-        y: 136
-        width: 64
-        height: 64
+        x: 305
+        y: 0
+        width: 43
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,20 +269,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d228327ba27088bc0800000000000000
-      internalID: -3780764007134952915
+      spriteID: a54550290a9db0ca0800000000000000
+      internalID: -6049502390774311846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: titlemapdungeon_6
+      name: plantattack2_6
       rect:
         serializedVersion: 2
-        x: 256
-        y: 136
-        width: 64
-        height: 64
+        x: 366
+        y: 0
+        width: 43
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,52 +291,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71144e31649649660800000000000000
-      internalID: 7391648638124179735
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: titlemapdungeon_7
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 136
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 38b36bc1d7865fa90800000000000000
-      internalID: -7280798336012633213
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: titlemapdungeon_8
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 72
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 894e55e372e8bd960800000000000000
-      internalID: 7627846693082752152
+      spriteID: 4a53213f4ced43d70800000000000000
+      internalID: 9022080891002959268
       vertices: []
       indices: 
       edges: []
@@ -360,7 +301,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 850e43e69b3aaad4f8f2c5141c8cacdc
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -369,16 +310,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      titlemapdungeon_0: -7374723201751921312
-      titlemapdungeon_1: -504257631106228705
-      titlemapdungeon_2: 822256454031474242
-      titlemapdungeon_3: 5427273683882941892
-      titlemapdungeon_4: 5589065649658642660
-      titlemapdungeon_5: -3780764007134952915
-      titlemapdungeon_6: 7391648638124179735
-      titlemapdungeon_7: -7280798336012633213
-      titlemapdungeon_8: 7627846693082752152
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

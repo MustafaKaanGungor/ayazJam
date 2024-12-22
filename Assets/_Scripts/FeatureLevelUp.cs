@@ -13,6 +13,7 @@ public class FeatureLevelUp : MonoBehaviour
     public FadeOutPanel fadeOutPanel;
     public Player player;
     private bool isClickable = true;
+    public int timer;
     public int num = 0;
 
     private void Awake()
@@ -167,6 +168,16 @@ public class FeatureLevelUp : MonoBehaviour
         fadeOutPanel.FadeOut();
         yield return new WaitForSeconds(2f);
         isClickable = true;
+    }
+    public void Timer()
+    {
+        float elapsedTime = 0;
+        elapsedTime += Time.deltaTime; 
+        if (elapsedTime > timer)
+        {
+            Time.timeScale = 0f;
+            //
+        }
     }
     
 }

@@ -38,4 +38,26 @@ public class FadeOutPanel : MonoBehaviour
         panelCanvasGroup.interactable = false;  // Paneli etkisiz hale getir
         panelCanvasGroup.blocksRaycasts = false; // Panelin týklamalarý engellemesini durdur
     }
+
+
+    private System.Collections.IEnumerator FadeInCoroutine()
+    {
+        float startAlpha = panelCanvasGroup.alpha;
+        float time = 0;
+
+        while (time < fadeDuration)
+        {
+            time += Time.deltaTime;
+            panelCanvasGroup.alpha = Mathf.Lerp(startAlpha, 1, time / fadeDuration);
+            yield return null;
+        }
+
+        panelCanvasGroup.alpha = 1;
+        panelCanvasGroup.interactable = true;
+        panelCanvasGroup.blocksRaycasts = true;
+    }
+    public void OpenPanel()
+    {
+
+    }
 }
