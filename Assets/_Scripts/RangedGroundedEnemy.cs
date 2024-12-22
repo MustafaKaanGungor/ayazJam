@@ -24,7 +24,7 @@ public class RangedGroundedEnemy : Enemy
             Attack(desiredDirection);
         }
         FacePlayer();
-        
+        Die();
     }
 
 

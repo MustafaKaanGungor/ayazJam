@@ -175,7 +175,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20cb38810b19af2428cbd365818087ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healt: 40
-  attackPerMinute: 60
+  healt: 50
+  damage: 10
+  attackPerMinute: 40
   playerTransform: {fileID: 0}
   bullet: {fileID: 3307299312786357223, guid: f86f70805d6f84947852ee35e0f4c5df, type: 3}

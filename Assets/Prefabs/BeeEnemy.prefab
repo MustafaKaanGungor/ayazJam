@@ -12,11 +12,10 @@ GameObject:
   - component: {fileID: 7542287877842157762}
   - component: {fileID: 4852629886340221906}
   - component: {fileID: 1272964395940134685}
-  - component: {fileID: -2539376149006393327}
   - component: {fileID: 5440833380437684767}
   m_Layer: 0
   m_Name: BeeEnemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,32 +129,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21b50024f9e1c724d944b22f7d217e62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healt: 0
+  healt: 70
   damage: 20
   attackPerMinute: 60
   playerTransform: {fileID: 0}
---- !u!195 &-2539376149006393327
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7419753093561767086}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 2.5
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 1
-  m_BaseOffset: 0.5
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
+  movementSpeed: 0
 --- !u!61 &5440833380437684767
 BoxCollider2D:
   m_ObjectHideFlags: 0
