@@ -6,12 +6,21 @@ using System.Linq;
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine.UI;
+using Unity.Cinemachine;
 
 public class Player : MonoBehaviour
 {
     #region "Hareket"
-    private Rigidbody2D playerRb;
+    public Rigidbody2D playerRb;
+    public Camera cam;
+    private bool isSwordMax;
+    private float swordMaxValue;
+    public Vector3 mousePos;
+    public int swordİnTheScenes = 0;
+    public GameObject swordPrefab;
+    public float swordMaxTime;
     private Vector3 dashRotation;
+    public Vector3 swordDirection;
     Vector3 movement;
     private List<KeyCode> pressedKeys = new List<KeyCode>();
 
@@ -32,6 +41,9 @@ public class Player : MonoBehaviour
     [SerializeField] private float attackDashForce; 
     private Animator animator;
     public int attackPower = 1;
+    public bool swordTrigger = false;
+    [SerializeField] private float swordForce;
+    [SerializeField] private float expectedSwordTimer;
     #endregion
 
     #region "UI"
@@ -112,7 +124,7 @@ public class Player : MonoBehaviour
         
 
         movement  = new Vector2(x,y);
-        if(Input.GetKeyDown(KeyCode.Mouse0))
+        if(Input.GetKeyDown(KeyCode.Mouse0) && !isAttacked)
         {
             Attack(movement);
             
@@ -124,7 +136,8 @@ public class Player : MonoBehaviour
         }
 
         playerRb.AddForce(movement * moveSpeed * Time.deltaTime);
-        Debug.Log(healt);
+        Vector3 mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+        swordDirection = mousePos - transform.position;
     }
     void LastKeyPressedByPlayer()
     {
@@ -158,27 +171,16 @@ public class Player : MonoBehaviour
     }
     void Attack(Vector2 direction)
     {
-        if(!isAttacked) {
-            isAttacked = true;
-            if(dashRotation == transform.right.normalized)
-            {
-            animator.SetTrigger("AttackRight");
-            }
-            if(dashRotation == -transform.right.normalized)
-            {
-                animator.SetTrigger("AttackLeft");
-            }
-            if(dashRotation == transform.up.normalized)
-            {
-                animator.SetTrigger("AttackUp");
-            }
-            if(dashRotation == -transform.up.normalized)
-            {
-                animator.SetTrigger("AttackDown");
-            }
-            playerRb.linearVelocity = dashRotation * attackDashForce;
-        }
+        isAttacked = true;
+        GameObject sword = Instantiate(swordPrefab, transform.position, Quaternion.identity);
+        sword.transform.SetParent(transform);
+        SwordDashForce();
         StartCoroutine("AttackTime");
+        
+    }
+    void SwordDashForce()
+    {
+        playerRb.AddForce(swordDirection.normalized * attackDashForce, ForceMode2D.Impulse);
     }
 
     public void TakeDamage(int damage)

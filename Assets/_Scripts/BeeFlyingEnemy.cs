@@ -9,16 +9,14 @@ public class BeeFlyingEnemy : Enemy
     private Vector3 desiredDirection;
     private float timer;
     private Player player;
+    private Rigidbody2D rb;
+    [SerializeField] private float movementSpeed;
 
     void Start()
     {
         playerTransform = GameObject.Find("Player").transform;
-        agent = GetComponent<NavMeshAgent>();
         player = playerTransform.GetComponent<Player>();
-    }
-    public override void Move()
-    {
-        agent.SetDestination(playerTransform.position);
+        rb = GetComponent<Rigidbody2D>();
     }
     public override void Attack(Vector3 direction)
     {
@@ -29,10 +27,13 @@ public class BeeFlyingEnemy : Enemy
 
     void Update()
     {
-        if(agent.velocity.magnitude < 1)
-        {
-        timer += Time.deltaTime;
+        FacePlayer();
+        float distance = Vector3.Distance(playerTransform.position,transform.position);
         desiredDirection = playerTransform.position - transform.position;
+        if(distance <= 1.75f)
+        {
+        rb.linearVelocity = Vector3.zero;
+        timer += Time.deltaTime;
         if(timer >= 60 / attackPerMinute )
         {
             
@@ -41,9 +42,12 @@ public class BeeFlyingEnemy : Enemy
         }
         
         }
-        
-        FacePlayer();
-        Move();
+        if(distance > 1.75f)
+        {
+        rb.linearVelocity = desiredDirection * movementSpeed;
+        }
+        Debug.Log(healt);
+        Die();
     }
 
     

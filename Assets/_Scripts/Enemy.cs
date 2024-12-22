@@ -50,6 +50,13 @@ public class Enemy : MonoBehaviour
     {
         healt -= damage;
     }
+    public void Die()
+    {
+        if(healt <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
 
 
 
