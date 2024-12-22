@@ -191,6 +191,7 @@ public class Player : MonoBehaviour
     public void TakeDamage(int damage)
     {
         healthP -= damage;
+        animator.SetTrigger("GotDamaged");
     }
 
     IEnumerator WaitForDash()

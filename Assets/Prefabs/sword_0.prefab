@@ -165,6 +165,7 @@ MonoBehaviour:
   swordForce: 4.69
   swordLerpTime: 0.3
   pushForce: 52.9
+  reflectForce: 2.02
 --- !u!50 &7205752354468652258
 Rigidbody2D:
   serializedVersion: 5

@@ -134,7 +134,7 @@ MonoBehaviour:
   damage: 20
   attackPerMinute: 60
   playerTransform: {fileID: 0}
-  animator: {fileID: 0}
+  animator: {fileID: 7353835551487669280}
   movementSpeed: 0.3
 --- !u!61 &5440833380437684767
 BoxCollider2D:

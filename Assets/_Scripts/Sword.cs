@@ -18,6 +18,7 @@ public class Sword : MonoBehaviour
     [SerializeField] private float swordForce;
     [SerializeField] private float swordLerpTime;
     [SerializeField] private float pushForce;
+    [SerializeField] private float reflectForce;
 
     private void Start() {
         rb = GetComponent<Rigidbody2D>();
@@ -42,7 +43,7 @@ public class Sword : MonoBehaviour
     if(collider.CompareTag("Bullet"))
     {
         Bullet bullet = collider.transform.GetComponent<Bullet>();
-        bullet.rb.linearVelocity *= -1;
+        bullet.rb.linearVelocity = bullet.rb.linearVelocity * -1 * reflectForce;
     }
    }
    void Update()
