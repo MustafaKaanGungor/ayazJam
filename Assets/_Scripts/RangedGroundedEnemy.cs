@@ -12,6 +12,7 @@ public class RangedGroundedEnemy : Enemy
 
     private void Start() {
         animator = GetComponent<Animator>();
+        playerTransform = GameObject.Find("Player").transform;
     }
     
     public override void Attack(Vector3 direction)

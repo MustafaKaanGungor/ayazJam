@@ -28,6 +28,7 @@ public class MainMenu2 : MonoBehaviour
     }
     void Update()
     {
+        Debug.Log("1");
         if(isStarted)
         {
             timer += Time.deltaTime;
