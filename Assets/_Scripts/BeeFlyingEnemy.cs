@@ -1,5 +1,4 @@
 using Unity.VisualScripting;
-using UnityEditor.Callbacks;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -11,7 +10,7 @@ public class BeeFlyingEnemy : Enemy
     private Player player;
     private Rigidbody2D rb;
     [SerializeField] private float movementSpeed;
-    private Animator animator;
+    
 
     void Start()
     {

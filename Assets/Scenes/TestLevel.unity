@@ -2417,6 +2417,11 @@ MonoBehaviour:
   player: {fileID: 0}
   timer: 0
   num: 0
+  elapsedTime: 0
+  stop: 0
+  textMeshProUGUI: {fileID: 0}
+  isNormal: 0
+  butonindex: 0
 --- !u!4 &2126968167
 Transform:
   m_ObjectHideFlags: 0

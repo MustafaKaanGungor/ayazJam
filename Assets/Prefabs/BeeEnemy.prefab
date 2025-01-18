@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1272964395940134685}
   - component: {fileID: 5440833380437684767}
   - component: {fileID: 7353835551487669280}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: BeeEnemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -192,7 +192,7 @@ Animator:
   m_GameObject: {fileID: 7419753093561767086}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6b94fa1dfdbb36f4e86151dc86489cfe, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

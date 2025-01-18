@@ -10,6 +10,8 @@ using UnityEngine.UI;
 using TMPro;
 using Unity.Cinemachine;
 using JetBrains.Annotations;
+using UnityEngine.UIElements;
+using Slider = UnityEngine.UI.Slider;
 
 public class Player : MonoBehaviour
 {
@@ -17,46 +19,53 @@ public class Player : MonoBehaviour
     public Rigidbody2D playerRb;
     
     public Camera cam;
-    private bool isSwordMax;
-    private float swordMaxValue;
+    [HideInInspector]
     public Vector3 mousePos;
+    [HideInInspector]
     public int swordİnTheScenes = 0;
     public GameObject swordPrefab;
     public float swordMaxTime;
+    [HideInInspector]
     private Vector3 dashRotation;
+    [HideInInspector]
     public Vector3 swordDirection;
+    [HideInInspector]
     Vector3 movement;
     private List<KeyCode> pressedKeys = new List<KeyCode>();
-
+    [HideInInspector]
     float x,y;
+    [HideInInspector]
     private KeyCode lastKeyPressed;
     [SerializeField] private float timeBetweenDashes;
     private float dashTimer;
     [SerializeField] private float attackDuration;
+    [HideInInspector]
     public bool isAttacked = false;
     private bool canDash = true;
 
     [SerializeField] private int dashForce;
     private bool IsFacingRight;
-    [SerializeField] private float moveSpeed;
+    //[SerializeField] private float moveSpeed;
+    //private bool isSwordMax;
+    //private float swordMaxValue;
     #endregion
 
     #region "Saldiri"
     [SerializeField] private float attackDashForce; 
     private Animator animator;
-    public int attackPower = 1;
+    [HideInInspector] 
     public bool swordTrigger = false;
-    [SerializeField] private float swordForce;
-    [SerializeField] private float expectedSwordTimer;
     #endregion
 
     #region "UI"
     [SerializeField] Slider dashSlider;
+    [SerializeField] RectTransform healthBar;
+    [SerializeField] GameObject border;
     #endregion
     #region "Health"
     public int healt;
     public int maxHealth;
-    public Slider slider;
+    [SerializeField] Slider slider;
     public GameObject endGameImage;
     #endregion
 
@@ -73,6 +82,11 @@ public class Player : MonoBehaviour
     void Start()
     {   
         slider.value = healthP;
+        if (healthBar != null) {
+            Debug.Log("var");        
+        }
+        else
+            Debug.Log("yok");
     }
 
 
@@ -197,6 +211,7 @@ public class Player : MonoBehaviour
     public void TakeDamage(int damage)
     {
         healthP -= damage;
+        slider.value = healthP;
         animator.SetTrigger("GotDamaged");
     }
 
@@ -226,7 +241,7 @@ public class Player : MonoBehaviour
         if (index == 0) 
         attackP = 5;
         if (index == 1)
-        speedP = 0;
+        speedP = 300;
         if (index == 2)
         {
             healthP = 5;
@@ -248,38 +263,63 @@ public class Player : MonoBehaviour
         if (index == 1) 
         {
             if (seviye == 1)
-                speedP = 1000;
+                speedP = 700;
             if (seviye == 2)
-                speedP = 1300;
+                speedP = 900;
             if (seviye == 3)
-                speedP = 1500;
+                dashForce = 10;
+                speedP = 900;
         }
         if(index == 2)
         {
             if (seviye == 1)
+            {
                 healthP = 100;
+                maxHealth = healthP;
+                slider.maxValue = maxHealth;
+                slider.value = healthP;
+            }
+                
+
             if (seviye == 2)
+            {
                 healthP = 150;
+                maxHealth = healthP;
+                slider.maxValue = maxHealth;
+                healthBar.sizeDelta = new Vector2(585, 178);
+                border.gameObject.transform.localScale = new Vector3(1.05f, 1f, 1f);
+                slider.value = healthP;
+            }
+                
             if (seviye == 3)
+            {
                 healthP = 200;
-            slider.value = healthP;
+                maxHealth = healthP;
+                healthBar.sizeDelta = new Vector2(610, 178);
+                border.gameObject.transform.localScale = new Vector3(1.1f, 1f, 1f);
+                slider.maxValue = maxHealth;
+                slider.value = healthP;
+            }
+            
+
         }
     }
-    public void SetSpeedP()
-    {
-        speedP = 0;
-    }
+    //public void SetSpeedP()
+    //{
+    //    speedP = 300;
+    //}
 
-    public void SetHealt()
-    {
-        healthP = 5;
-        slider.value = healthP;
-    }
+    //public void SetHealt()
+    //{
+    //    healthP = 5;
+    //    slider.value = healthP;
+    //}
     void Die()
     {
         if(healthP <= 0)
         {
-            endGameImage.SetActive(true);
+            //endGameImage.SetActive(true);
+            SceneManager.LoadScene(1);
         }
     }
     public void MainMenu()
